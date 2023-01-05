@@ -45,8 +45,8 @@ async def start(client, message):
     try:
         id = message.text.split(' ')[1]
     except:
-        txt=f"""Hello {wish} {message.from_user.first_name } \n\n
-	I am file renamer bot, Please sent any telegram**Document Or Video** and enter new filename to rename it"""
+        txt=f"""Hello {wish} {message.from_user.first_name } \n
+	I am file renamer bot, Please sent any telegram **Document Or Video** and enter new filename to rename it"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
@@ -68,7 +68,7 @@ async def start(client, message):
                                               [InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://t.me/Cinema_Rockets")],
                                               [InlineKeyboardButton("𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙", url='https://t.me/Cinema_Rockets'),
                                              InlineKeyboardButton("𝙼𝚘𝚟𝚒𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url='https://t.me/Cinema_Rockets')],
-                                             [InlineKeyboardButton("☕👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤", url='https://t.me/MaHi_458')]
+                                             [InlineKeyboardButton("👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤", url='https://t.me/MaHi_458')]
                                           ]))
             except:
                 return
