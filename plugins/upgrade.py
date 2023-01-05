@@ -27,8 +27,8 @@ async def upgrade(bot,update):
         Payment To Admin @MaHi_458"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤",url = "https://t.me/MaHi_458")], 
-        			[InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://t.me/MaHi_458"),
-        			InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://t.me/MaHi_458")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
+        			InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://p.paytm.me/xCTH/6pd91cj8")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -51,12 +51,12 @@ async def upgradecm(bot,message):
 	Price Rs 206  ind /🌎 2.5$  per Month
 	
 	
-	Contact Me :- *@MaHi_458**
+	Contact Me :- **@MaHi_458**
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @MaHi_458"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤",url = "https://t.me/MaHi_458")], 
-        			[InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://t.me/MaHi_458"),
-        			InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://t.me/MaHi_458")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
+        			InlineKeyboardButton("🎫   𝙿𝚊𝚢𝚃𝚖   🎫",url = "https://p.paytm.me/xCTH/6pd91cj8")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
