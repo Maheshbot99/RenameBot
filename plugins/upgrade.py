@@ -5,7 +5,7 @@ from pyrogram import Client , filters
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
 	text = """**𝐅𝐫𝐞𝐞 𝐏𝐥𝐚𝐧 𝐔𝐬𝐞𝐫**
-	Daily  Upload limit 1.2GB
+	Daily  Upload limit 4GB
 	Price 0
 	
 	**🪙 𝐒𝐢𝐥𝐯𝐞𝐫 𝐓𝐢𝐞𝐫 🪙** 
@@ -35,7 +35,7 @@ async def upgrade(bot,update):
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
 	text = """**𝐅𝐫𝐞𝐞 𝐏𝐥𝐚𝐧 𝐔𝐬𝐞𝐫**
-	Daily  Upload limit 1.2GB
+	Daily  Upload limit 4GB
 	Price 0
 	
 	**🪙 𝐒𝐢𝐥𝐯𝐞𝐫 𝐓𝐢𝐞𝐫 🪙** 
