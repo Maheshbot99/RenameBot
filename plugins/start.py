@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "")
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ Good morning sweetheart ❤️"
+    wish = "❤️ 𝙶𝚘𝚘𝚍 𝙼𝚘𝚛𝚗𝚒𝚗𝚐 ❤️"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '🤍 𝙶𝚘𝚘𝚍 𝙰𝚏𝚝𝚎𝚛𝚗𝚘𝚘𝚗 🤍'
 else:
-    wish = '🦋 Good evening baby 🦋'
+    wish = '🦋 𝙶𝚘𝚘𝚍 𝙴𝚟𝚎𝚗𝚒𝚗𝚐 🦋'
 
 # -------------------------------
 
@@ -79,9 +79,8 @@ async def start(client, message):
             new_limit = limit + 104857600
             uploadlimit(int(id), new_limit)
             await message.reply_text(text=f"""
-	Hello {wish} {message.from_user.first_name }\n\n
-	__I am file renamer bot, Please send any telegram 
-	**Document Or Video** and enter new filename to rename it__
+	𝙷𝚎𝚕𝚕𝚘 {wish} {message.from_user.first_name }\n\n
+	𝙸'𝚖  𝙰  𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎  𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛  𝙱𝙾𝚃  𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝  𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕  &  𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝!
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤", url="https://t.me/MaHi_458")],
