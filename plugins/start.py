@@ -45,8 +45,7 @@ async def start(client, message):
     try:
         id = message.text.split(' ')[1]
     except:
-        txt=f"""Hello {wish} {message.from_user.first_name } \n
-	I am file renamer bot, Please sent any telegram **Document Or Video** and enter new filename to rename it"""
+        txt=f"""Hello {wish} {message.from_user.first_name } \n I am file renamer bot, Please sent any telegram **Document Or Video** and enter new filename to rename it"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
