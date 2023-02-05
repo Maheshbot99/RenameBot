@@ -23,8 +23,8 @@ async def upgrade(bot,update):
 	
 	**Payment :-** `maheshs458@ybl`
 	
-	**𝖠𝖿𝗍𝖾𝗋 𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖲𝖾𝗇𝖽 𝖲𝖼𝗋𝖾𝖾𝗇𝗌𝗁𝗈𝗍𝗌 𝖮𝖿  
-        𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖳𝗈 𝖠𝖽𝗆𝗂𝗇 @MaHi_458**"""
+	**After Payment Send Screenshots Of  
+        Payment To Admin @MaHi_458**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("👤 MAHESH 👤",url = "https://t.me/MaHi_458")], 
         			[InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
@@ -53,8 +53,8 @@ async def upgradecm(bot,message):
 	
 	**Payment :-** `maheshs458@ybl`
 	
-	**𝖠𝖿𝗍𝖾𝗋 𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖲𝖾𝗇𝖽 𝖲𝖼𝗋𝖾𝖾𝗇𝗌𝗁𝗈𝗍𝗌 𝖮𝖿  
-        𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖳𝗈 𝖠𝖽𝗆𝗂𝗇 @MaHi_458**"""
+	**After Payment Send Screenshots Of  
+        Payment To Admin @MaHi_458**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("👤  MAHESH  👤",url = "https://t.me/MaHi_458")], 
         			[InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
