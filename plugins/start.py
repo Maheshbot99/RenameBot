@@ -30,11 +30,11 @@ LAZY_PIC = os.environ.get("LAZY_PIC", "")
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-    wish = "❤️ 𝙶𝚘𝚘𝚍 𝙼𝚘𝚛𝚗𝚒𝚗𝚐 ❤️"
+    wish = "❤️ GOOD MORNING  ❤️"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 𝙶𝚘𝚘𝚍 𝙰𝚏𝚝𝚎𝚛𝚗𝚘𝚘𝚗 🤍'
+    wish = '🤍 GOOD AFTERNOON 🤍'
 else:
-    wish = '🦋 𝙶𝚘𝚘𝚍 𝙴𝚟𝚎𝚗𝚒𝚗𝚐 🦋'
+    wish = '💙 GOOD EVENING 💙'
 
 # -------------------------------
 
@@ -45,7 +45,7 @@ async def start(client, message):
     try:
         id = message.text.split(' ')[1]
     except:
-        txt=f"""𝙷𝚎𝚕𝚕𝚘 {wish} {message.from_user.mention} \n 𝙸 𝚊𝚖 𝚏𝚒𝚕𝚎 𝚛𝚎𝚗𝚊𝚖𝚎𝚛 𝚋𝚘𝚝, 𝙿𝚕𝚎𝚊𝚜𝚎 𝚜𝚎𝚗𝚝 𝚊𝚗𝚢 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭 𝐎𝐫 𝐕𝐢𝐝𝐞𝐨 𝚊𝚗𝚍 𝚎𝚗𝚝𝚎𝚛 𝚗𝚎𝚠 𝚏𝚒𝚕𝚎𝚗𝚊𝚖𝚎 𝚝𝚘 𝚛𝚎𝚗𝚊𝚖𝚎 𝚒𝚝......."""
+        txt=f"""HELLO  {wish}  {message.from_user.mention} \n\nI Am File Renamer Bot, Send Any Telegram **Document Or Video** And Enter New FileName To Rename It....... \nIf You Want To **Rename 4GB FILE** Then **UPGRADE** It  \nUse This /Upgrade"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
@@ -78,8 +78,8 @@ async def start(client, message):
             new_limit = limit + 104857600
             uploadlimit(int(id), new_limit)
             await message.reply_text(text=f"""
-	𝙷𝚎𝚕𝚕𝚘 {wish} {message.from_user.first_name }\n\n
-	𝙸'𝚖  𝙰  𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎  𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛  𝙱𝙾𝚃  𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝  𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕  &  𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝!
+	HELLO  {wish}  {message.from_user.mention} \n\n
+	I Am File Renamer Bot, Send Any Telegram **Document Or Video** And Enter New FileName To Rename It....... \nIf You Want To **Rename 4GB FILE** Then **UPGRADE** It  \nUse This /Upgrade
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤", url="https://t.me/MaHi_458")],
