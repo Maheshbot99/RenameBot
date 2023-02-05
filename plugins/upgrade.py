@@ -21,7 +21,7 @@ async def upgrade(bot,update):
 	**Price :- Rs 150 ind / 1.8$ Per Month**
 	
 	
-	Payment :- *maheshs458@ybl**
+	Payment :- `maheshs458@ybl`
 	
 	**𝖠𝖿𝗍𝖾𝗋 𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖲𝖾𝗇𝖽 𝖲𝖼𝗋𝖾𝖾𝗇𝗌𝗁𝗈𝗍𝗌 𝖮𝖿  
         𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖳𝗈 𝖠𝖽𝗆𝗂𝗇 @MaHi_458**"""
@@ -51,7 +51,7 @@ async def upgradecm(bot,message):
 	**Price :- Rs 150 ind / 1.8$ Per Month**
 	
 	
-	Payment :- *maheshs458@ybl**
+	Payment :- `maheshs458@ybl`
 	
 	**𝖠𝖿𝗍𝖾𝗋 𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖲𝖾𝗇𝖽 𝖲𝖼𝗋𝖾𝖾𝗇𝗌𝗁𝗈𝗍𝗌 𝖮𝖿  
         𝖯𝖺𝗒𝗆𝖾𝗇𝗍 𝖳𝗈 𝖠𝖽𝗆𝗂𝗇 @MaHi_458**"""
