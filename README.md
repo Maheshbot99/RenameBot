@@ -27,6 +27,7 @@
 
 * `STRING` - If you want to rename 4GB+ files. `[Note :- Remove string if bot don't works]`
 
+* `LOG_CHANNEL` - Log Channel I'D 
 
   ### 📶 DEPLOYEMENT SUPPORT
 
