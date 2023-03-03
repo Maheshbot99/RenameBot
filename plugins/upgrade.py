@@ -8,25 +8,25 @@ async def upgrade(bot,update):
 	**Daily Upload Limit 4GB**
 	**4GB File Support :- No**
         **Multi File Rename :- No**
-        **Price :- 0**
+        **🤑Price :- 0**
 	
 	**🥈 Silver Plan User 🥈** 
 	**Daily Upload Limit 10GB**
 	**4GB File Support :- Yes**
         **Multi File Rename :- Yes**
-	**Price :- Rs 100 ind / 1.22$ Per Month**
+	**🤑Price :- Rs 100 ind / 1.22$ Per Month**
 	
 	**🏅 Gold Plan User 🏅**
 	**Daily Upload Limit 50GB**
 	**4GB File Support :- Yes**
         **Multi File Rename :- Yes**
-	**Price :- Rs 150 ind / 1.2$ Per Month**
+	**🤑Price :- Rs 150 ind / 1.2$ Per Month**
 	
 	**💎 Diamond Plan User 💎**
 	**Daily Upload Limit 100GB**
 	**4GB File Support :- Yes**
         **Multi File Rename :- Yes**
-	**Price :- Rs 150 ind / 1.83$ Per Month**
+	**🤑Price :- Rs 150 ind / 1.83$ Per Month**
 	
 	
 	**Payment :-** `maheshs458@ybl`
