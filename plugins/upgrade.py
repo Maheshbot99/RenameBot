@@ -6,19 +6,27 @@ from pyrogram import Client , filters
 async def upgrade(bot,update):
 	text = """ **Free Plan User**
 	**Daily Upload Limit 4GB**
-	**Price :- 0**
+	**4GB File Support :- No**
+        **Multi File Rename :- No**
+        **Price :- 0**
 	
 	**🥈 Silver Plan User 🥈** 
 	**Daily Upload Limit 10GB**
-	**Price :- Rs 50 ind / 0.6$ Per Month**
+	**4GB File Support :- Yes**
+        **Multi File Rename :- Yes**
+	**Price :- Rs 100 ind / 1.22$ Per Month**
 	
 	**🏅 Gold Plan User 🏅**
 	**Daily Upload Limit 50GB**
-	**Price :- Rs 100 ind / 1.2$ Per Month**
+	**4GB File Support :- Yes**
+        **Multi File Rename :- Yes**
+	**Price :- Rs 150 ind / 1.2$ Per Month**
 	
 	**💎 Diamond Plan User 💎**
-	**Daily Upload Limit 100GB **
-	**Price :- Rs 150 ind / 1.8$ Per Month**
+	**Daily Upload Limit 100GB**
+	**4GB File Support :- Yes**
+        **Multi File Rename :- Yes**
+	**Price :- Rs 150 ind / 1.83$ Per Month**
 	
 	
 	**Payment :-** `maheshs458@ybl`
@@ -36,19 +44,27 @@ async def upgrade(bot,update):
 async def upgradecm(bot,message):
 	text = """ **Free Plan User**
 	**Daily Upload Limit 4GB**
-	**Price :- 0**
+	**Daily Upload Limit 4GB**
+	**4GB File Support :- No**
+	**🤑Price :- 0**
 	
 	**🥈 Silver Plan User 🥈** 
 	**Daily Upload Limit 10GB**
-	**Price :- Rs 50 ind / 0.6$ Per Month**
+	**4GB File Support :- Yes**
+        **Multi File Rename :- Yes**
+	**🤑Price :- Rs 50 ind / 0.6$ Per Month**
 	
 	**🏅 Gold Plan User 🏅**
 	**Daily Upload Limit 50GB**
-	**Price :- Rs 100 ind / 1.2$ Per Month**
+	**4GB File Support :- Yes**
+        **Multi File Rename :- Yes**
+	**🤑Price :- Rs 100 ind / 1.2$ Per Month**
 	
 	**💎 Diamond Plan User 💎**
-	**Daily Upload Limit 100GB **
-	**Price :- Rs 150 ind / 1.8$ Per Month**
+	**Daily Upload Limit 100GB**
+	**4GB File Support :- Yes**
+        **Multi File Rename :- Yes**
+	**🤑Price :- Rs 150 ind / 1.8$ Per Month**
 	
 	
 	**Payment :-** `maheshs458@ybl`
