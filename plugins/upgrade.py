@@ -24,9 +24,9 @@ async def upgrade(bot,update):
 	**Payment :-** `maheshs458@ybl`
 	
 	**After Payment Send Screenshots Of  
-        Payment To Admin @MaHi_458**"""
+        Payment To Admin @MaHi_458Bot**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("👤 MAHESH 👤",url = "https://t.me/MaHi_458")], 
+        			InlineKeyboardButton("👤 MAHESH 👤",url = "https://t.me/MaHi_458Bot")], 
         			[InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
         			InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
@@ -54,9 +54,9 @@ async def upgradecm(bot,message):
 	**Payment :-** `maheshs458@ybl`
 	
 	**After Payment Send Screenshots Of  
-        Payment To Admin @MaHi_458**"""
+        Payment To Admin @MaHi_458Bot**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("👤  MAHESH  👤",url = "https://t.me/MaHi_458")], 
+        			InlineKeyboardButton("👤  MAHESH  👤",url = "https://t.me/MaHi_458Bot)], 
         			[InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
         			InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
