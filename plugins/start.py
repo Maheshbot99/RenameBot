@@ -17,9 +17,9 @@ import os
 
 CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
+ADMIN = int(os.environ.get("ADMIN", 5450011131))
+bot_username = os.environ.get("BOT_USERNAME","")
+log_channel = int(os.environ.get("LOG_CHANNEL", "Rename4GB_Msbot"))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
 FLOOD = 500
@@ -49,9 +49,9 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458")],
+                                      [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                       [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
-                                      [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/Cinema_Rockets'),
+                                      [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
                                       InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
                                       [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                       ]))
@@ -63,9 +63,9 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458")],
+                                             [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                               [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
-                                              [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/Cinema_Rockets'),
+                                              [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
                                              InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
                                              [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                           ]))
@@ -82,9 +82,9 @@ async def start(client, message):
 	I Am File Renamer Bot, Send Any Telegram **Document Or Video** And Enter New FileName To Rename It....... \nIf You Want To **Rename 4GB FILE** Then **UPGRADE** It  \nUse This /Upgrade
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458")],
+                                         [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                           [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
-                                          [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/Cinema_Rockets'),
+                                          [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
                                           InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
                                           [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                           ]))
@@ -124,11 +124,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"Hello dear {message.from_user.first_name} \n**we are currently working on this issue** \n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')],
+                                                                     [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458Bot')],
                                                                      [InlineKeyboardButton("💳 PAYTM 💳", url='https://p.paytm.me/xCTH/6pd91cj8')],
-                                                                     [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/Cinema_Rockets'),
+                                                                     [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
                                                                      InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
-                                                                     [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
+                                                                     [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458Bot')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
@@ -175,7 +175,7 @@ async def send_doc(client, message):
                     return
                 pre_check = check_expi(buy_date)
                 if pre_check == True:
-                    await message.reply_text(f"""__What do you want me to do with this file?__\n**File Name** :- {filename}\n**File Size** :- {humanize.naturalsize(file.file_size)}\n**Dc ID** :- {dcid}""", reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 Rename", callback_data="rename"), InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]]))
+                    await message.reply_text(f"""**__What do you want me to do with this file?__**\n**File Name** :- {filename}\n**File Size** :- {humanize.naturalsize(file.file_size)}\n**Dc ID** :- {dcid}""", reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 Rename", callback_data="rename"), InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]]))
                     total_rename(int(botid), prrename)
                     total_size(int(botid), prsize, file.file_size)
                 else:
@@ -198,6 +198,6 @@ async def send_doc(client, message):
             fileid = file.file_id
             total_rename(int(botid), prrename)
             total_size(int(botid), prsize, file.file_size)
-            await message.reply_text(f"""__What do you want me to do with this file?__\n**File Name** :- {filename}\n**File Size** :- {filesize}\n**Dc ID** :- {dcid}""", reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(
+            await message.reply_text(f"""**__What do you want me to do with this file?__**\n**File Name** :- {filename}\n**File Size** :- {filesize}\n**Dc ID** :- {dcid}""", reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("📝 Rename", callback_data="rename"),
                   InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]]))
