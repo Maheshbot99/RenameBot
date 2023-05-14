@@ -180,7 +180,7 @@ async def send_doc(client, message):
                     await message.reply_text(f'Your Plan Expired On {buy_date}', quote=True)
                     return
             else:
-                await message.reply_text("Can't upload files bigger than 2GB ")
+                await message.reply_text("**ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʟᴀɴ ᴛᴏ ʀᴇɴᴀᴍᴇ ꜰɪʟᴇꜱ ʟᴀʀɢᴇʀ ᴛʜᴀɴ 2ɢʙ**")
                 return
         else:
             if buy_date:
