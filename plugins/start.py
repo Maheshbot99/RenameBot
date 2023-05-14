@@ -52,7 +52,7 @@ async def start(client, message):
                                       [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                       [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
                                       InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                      [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "cancel")]
+                                      [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "myplan")]
                                       ]))
         return
     if id:
@@ -65,7 +65,7 @@ async def start(client, message):
                                              [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                               [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
                                              InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                             [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "cancel")]
+                                             [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "myplan")]
                                           ]))
             except:
                 return
@@ -82,7 +82,7 @@ async def start(client, message):
                                          [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
                                           InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                          [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "cancel")]
+                                          [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "myplan")]
                                           ]))
     
 
@@ -123,7 +123,7 @@ async def send_doc(client, message):
                                                                      [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
                                                                      InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                                                     [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "cancel")]
+                                                                     [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = "myplan")]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
