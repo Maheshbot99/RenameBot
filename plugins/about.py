@@ -1,15 +1,36 @@
-import os 
-from pyrogram import Client, filters
-token = os.environ.get('TOKEN','')
-botid = token.split(':')[0]
-from helper.database import botdata, find_one, total_user
+"""lokaman"""
+from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
+from pyrogram import Client , filters
 
-from helper.progress import humanbytes
+@Client.on_callback_query(filters.regex('zdogrocky'))
+async def upgrade(bot,update):
+	text = """ **🏷 ᴘʟᴀɴ** :- Silver 🥈
 
-@Client.on_message(filters.private & filters.command(["about"]))
-async def start(client,message):
-	botdata(int(botid))
-	data = find_one(int(botid))
-	total_rename = data["total_rename"]
-	total_size = data["total_size"]
-	await message.reply_text(f"Owner :- <a href='https://t.me/MaHi_458'>👤 MAHESH 👤</a>\nPAYTM LINK :- <a href='https://p.paytm.me/xCTH/6pd91cj8'>🎫 PAYTM 🎫</a>\nOwner  :- MAHESH\nUPI I'D :- maheshs458@ybl\nServer :- India\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank You **<a href='https://t.me/MaHi_458'>👤 MAHESH 👤</a>** For Your Hard Work \n\n❤️ We Love You <a href='https://t.me/MaHi_458'>**👤 MAHESH 👤**</a> ❤️",quote=True)
+**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 10.0 GB
+**⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 0 minutes
+**⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- True
+**⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 3
+**⌾ ᴠᴀʟɪᴅɪᴛʏ** :- 30 Days
+
+**💰 ᴘʀɪᴄᴇ 39₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
+	keybord = InlineKeyboardMarkup([[ 
+        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Buy-05-14")], 
+        			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
+	await update.message.edit(text = text,reply_markup = keybord)
+	
+
+@Client.on_message(filters.private & filters.command(["zdogrocky"]))
+async def upgradecm(bot,message):
+	text = """ **🏷 ᴘʟᴀɴ** :- Silver 🥈
+
+**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 10.0 GB
+**⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 0 minutes
+**⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- True
+**⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 3
+**⌾ ᴠᴀʟɪᴅɪᴛʏ** :- 30 Days
+
+**💰 ᴘʀɪᴄᴇ 39₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
+	keybord = InlineKeyboardMarkup([[ 
+        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Buy-05-14")], 
+        			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
+	await message.reply_text(text = text,reply_markup = keybord)
