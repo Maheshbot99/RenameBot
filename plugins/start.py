@@ -51,7 +51,7 @@ async def start(client, message):
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                       [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
-                                      [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
+                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                       InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
                                       [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                       ]))
@@ -65,7 +65,7 @@ async def start(client, message):
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                               [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
-                                              [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
+                                              [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                              InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
                                              [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                           ]))
@@ -83,7 +83,7 @@ async def start(client, message):
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                           [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
-                                          [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
+                                          [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                           InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
                                           [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                           ]))
@@ -125,7 +125,7 @@ async def send_doc(client, message):
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458Bot')],
                                                                      [InlineKeyboardButton("💳 PAYTM 💳", url='https://p.paytm.me/xCTH/6pd91cj8')],
-                                                                     [InlineKeyboardButton("SUPPORT GROUP", url='https://t.me/NKMDB_Support'),
+                                                                     [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                                                      InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
                                                                      [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458Bot')]
                                                                     ]))
