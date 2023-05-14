@@ -6,7 +6,7 @@ from pyrogram import Client , filters
 async def upgrade(bot,update):
 	text = """ **🏷 ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ** :- Free
 
-**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- {total_size} / 2.01 GB
+**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 2.01 GB
 **⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 1 min
 **⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- False
 **⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 1 
@@ -22,7 +22,7 @@ async def upgrade(bot,update):
 async def upgradecm(bot,message):
 	text = """ **🏷 ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ** :- Free
 
-**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- {total_size} / 2.01 GB
+**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 2.01 GB
 **⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 1 min
 **⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- False
 **⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 1 
