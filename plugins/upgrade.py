@@ -4,7 +4,13 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
-	text = """  """
+	text = """ **🏷 ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ** :- Free
+
+**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 4.01 GB
+**⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 1 min
+**⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- False
+**⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 1 
+**⌾ ᴠᴀʟɪᴅɪᴛʏ** :- Life Time"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Cancel",callback_data = "cancel")], 
         			[InlineKeyboardButton("Cancel",callback_data = "cancel"),
