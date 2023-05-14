@@ -1,4 +1,4 @@
-"""lokaman"""
+["""lokaman"""
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 from pyrogram import Client , filters
 
@@ -29,6 +29,6 @@ async def upgradecm(bot,message):
 **⌾ ᴠᴀʟɪᴅɪᴛʏ** :- Life Time"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
-        			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "zdogrocky1"),
+        			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "zdogrocky1")],
         			InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ",callback_data = "zdogrocky2")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
