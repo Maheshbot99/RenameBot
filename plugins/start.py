@@ -52,7 +52,7 @@ async def start(client, message):
                                       [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                       [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
                                       [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
-                                      InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
+                                      InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
                                       [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                       ]))
         return
@@ -66,7 +66,7 @@ async def start(client, message):
                                              [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                               [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
                                               [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
-                                             InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
+                                             InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
                                              [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                           ]))
             except:
@@ -84,7 +84,7 @@ async def start(client, message):
                                          [[InlineKeyboardButton("👤 MAHESH 👤", url="https://t.me/MaHi_458Bot")],
                                           [InlineKeyboardButton("💳 PAYTM 💳", url="https://p.paytm.me/xCTH/6pd91cj8")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
-                                          InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
+                                          InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
                                           [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
                                           ]))
     
@@ -126,7 +126,7 @@ async def send_doc(client, message):
                                                                      [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458Bot')],
                                                                      [InlineKeyboardButton("💳 PAYTM 💳", url='https://p.paytm.me/xCTH/6pd91cj8')],
                                                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
-                                                                     InlineKeyboardButton("MOVIE CHANNEL", url='https://t.me/Cinema_Rockets')],
+                                                                     InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
                                                                      [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458Bot')]
                                                                     ]))
         await message.reply_text(text=f"🦋")
