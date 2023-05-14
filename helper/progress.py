@@ -37,10 +37,9 @@ async def progress_for_pyrogram(
         )
         try:
             await message.edit(
-                text="{}\n\n{}".format(ud_type, tmp),               
-                reply_markup=InlineKeyboardMarkup( [[
-                    InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ", callback_data="cancel")
-                    ]]
+                text="{}\n {}".format(
+                    ud_type,
+                    tmp
                 )
             )
         except:
