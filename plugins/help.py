@@ -1,60 +1,15 @@
-"""lokaman"""
-from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
-from pyrogram import Client , filters
+import os 
+from pyrogram import Client, filters
+token = os.environ.get('TOKEN','')
+botid = token.split(':')[0]
+from helper.database import botdata, find_one, total_user
 
-@Client.on_callback_query(filters.regex('help'))
-async def upgrade(bot,update):
-	text = """ 📚 Available Commands:
+from helper.progress import humanbytes
 
-➢ /start - check i'm alive 
-
-➢ /plans - check available plan info
-
-➢ /set_caption - To add your custom caption 
-
-➢ /see_caption - To see your custom caption
-
-➢ /del_caption - To delete your custom caption
-
-➢ /viewthumb - To see your custom thumbnail
-
-➢ /delthumb - To delete your custom thumbnail
-
-• upgrade your premium plan for Better renaming experience.
-
-• send a photo to me to add as custom Thumbnail.
-
-• send your files to me to rename.."""
-	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "upgrade")], 
-        			[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
-	await update.message.edit(text = text,reply_markup = keybord)
-	
-
-@Client.on_message(filters.private & filters.command(["help"]))
-async def upgradecm(bot,message):
-	text = """  📚 Available Commands:
-
-➢ /start - check i'm alive 
-
-➢ /plans - check available plan info
-
-➢ /set_caption - To add your custom caption 
-
-➢ /see_caption - To see your custom caption
-
-➢ /del_caption - To delete your custom caption
-
-➢ /viewthumb - To see your custom thumbnail
-
-➢ /delthumb - To delete your custom thumbnail
-
-• upgrade your premium plan for Better renaming experience.
-
-• send a photo to me to add as custom Thumbnail.
-
-• send your files to me to rename.."""
-	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "upgrade")], 
-        			[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
-	await message.reply_text(text = text,reply_markup = keybord)
+@Client.on_message(filters.private & filters.command(["about"]))
+async def start(client,message):
+	botdata(int(botid))
+	data = find_one(int(botid))
+	total_rename = data["total_rename"]
+	total_size = data["total_size"]
+	await message.reply_text(f"Owner :- <a href='https://t.me/MaHi_458'>👤 MAHESH 👤</a>\nPAYTM LINK :- <a href='https://p.paytm.me/xCTH/6pd91cj8'>🎫 PAYTM 🎫</a>\nOwner  :- MAHESH\nUPI I'D :- maheshs458@ybl\nServer :- India\nTotal Renamed File :- {total_rename}\nTotal Size Renamed :- {humanbytes(int(total_size))} \n\n Thank You **<a href='https://t.me/MaHi_458'>👤 MAHESH 👤</a>** For Your Hard Work \n\n❤️ We Love You <a href='https://t.me/MaHi_458'>**👤 MAHESH 👤**</a> ❤️",quote=True)
