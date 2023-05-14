@@ -6,7 +6,7 @@ from helper.database import botdata, find_one, total_user
 
 from helper.progress import humanbytes
 
-@Client.on_message(filters.private & filters.command(["about"]))
+@Client.on_message(filters.private & filters.command(["help"]))
 async def start(client,message):
 	botdata(int(botid))
 	data = find_one(int(botid))
