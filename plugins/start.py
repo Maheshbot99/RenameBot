@@ -50,10 +50,10 @@ async def start(client, message):
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("ʜᴇʟᴩ",callback_data = "help")],
-                                      [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                      [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "upgrade")],
                                       [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                       InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                      [InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "zdogrocky")]
+                                      [InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")]
                                       ]))
         return
     if id:
