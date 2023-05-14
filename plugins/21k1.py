@@ -4,7 +4,7 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('21k1'))
 async def upgrade(bot,update):
-	text = """ **🏷 ᴘʟᴀɴ** :- Gold 🥈
+	text = """ **🏷 ᴘʟᴀɴ** :- Gold 🏆 
 
 **⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 50.0 GB
 **⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 0 minutes
@@ -21,7 +21,7 @@ async def upgrade(bot,update):
 
 @Client.on_message(filters.private & filters.command(["21k1"]))
 async def upgradecm(bot,message):
-	text = """ **🏷 ᴘʟᴀɴ** :- Gold 🥈
+	text = """ **🏷 ᴘʟᴀɴ** :- Gold 🏆 
 
 **⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 50.0 GB
 **⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 0 minutes
