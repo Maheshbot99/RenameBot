@@ -166,7 +166,7 @@ async def send_doc(client, message):
             
             if STRING:
                 if buy_date == None:
-                    await message.reply_text(f" You Can't Upload More Then {humanbytes(limit)} Used Daily Limit {humanbytes(used)} ", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Upgrade 💰💳", callback_data="upgrade")]]))
+                    await message.reply_text(f" **yᴏᴜ ᴄᴀɴ'ᴛ ᴜᴩʟᴏᴀᴅ ᴍᴏʀᴇ ᴛʜᴇɴ {humanbytes(limit)} ᴜꜱᴇᴅ ᴅᴀɪʟy ʟɪᴍɪᴛ** {humanbytes(used)} ", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ", callback_data="upgrade")]]))
                     return
                 pre_check = check_expi(buy_date)
                 if pre_check == True:
@@ -177,7 +177,7 @@ async def send_doc(client, message):
                     uploadlimit(message.from_user.id, 2147483648)
                     usertype(message.from_user.id, "Free")
 
-                    await message.reply_text(f'Your Plan Expired On {buy_date}', quote=True)
+                    await message.reply_text(f'**yᴏᴜʀ ᴩʟᴀɴ ᴇxᴩɪʀᴇᴅ ᴏɴ {buy_date}', quote=True)
                     return
             else:
                 await message.reply_text("**ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʟᴀɴ ᴛᴏ ʀᴇɴᴀᴍᴇ ꜰɪʟᴇꜱ ʟᴀʀɢᴇʀ ᴛʜᴀɴ 2ɢʙ**")
