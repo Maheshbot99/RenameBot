@@ -43,6 +43,6 @@ async def start(client, message):
         text = f"**ᴜꜱᴇʀ ɪᴅ** :- ```{message.from_user.id}```\n**ᴩʟᴀɴ** :- {user}\n**ᴅᴀɪʟy ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ** :- {humanbytes(limit)}\n**ᴛᴏᴅᴀy ᴜꜱᴇᴅ** :- {humanbytes(used)}\n**ʀᴇᴍᴀɪɴ** :- {humanbytes(remain)}\n\n**yᴏᴜʀ ᴩʟᴀɴ ᴇɴᴅꜱ ᴏɴ** :- {normal_date}"
 
     if user == "Free":
-        await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴩɢʀᴀᴅᴇ", callback_data="upgrade"), InlineKeyboardButton("Cancel ✖️ ", callback_data="cancel")]]))
+        await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ", callback_data="upgrade"), InlineKeyboardButton("Cancel ✖️ ", callback_data="cancel")]]))
     else:
         await message.reply(text, quote=True)
