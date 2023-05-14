@@ -8,7 +8,7 @@ async def add_caption(client, message):
        return await message.reply_text("**Give me a caption to set.\n\nExample:- `/set_caption {filename}`**")
     caption = message.text.split(" ", 1)[1]
     addcaption(int(message.chat.id), caption)
-    await message.reply_text("**Your Caption successfully added ✅**")
+    await message.reply_text("**yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy ᴀᴅᴅᴇᴅ !!**")
 
 @Client.on_message(filters.private & filters.command('del_caption'))
 async def delete_caption(client, message): 
@@ -17,7 +17,7 @@ async def delete_caption(client, message):
         await message.reply_text("**yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴy ᴄᴏꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**")
         return
     delcaption(int(message.chat.id))
-    await message.reply_text("**ᴄᴏꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ ᴅᴇʟᴇᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy !!**")
+    await message.reply_text("**yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy ᴅᴇʟᴇᴛᴇᴅ !!**")
                                        
 @Client.on_message(filters.private & filters.command('see_caption'))
 async def see_caption(client, message): 
