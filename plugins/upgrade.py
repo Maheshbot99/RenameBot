@@ -6,9 +6,9 @@ from pyrogram import Client , filters
 async def upgrade(bot,update):
 	text = """  """
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("👤 MAHESH 👤",url = "https://t.me/MaHi_458Bot")], 
-        			[InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
-        			InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Cancel",callback_data = "cancel")], 
+        			[InlineKeyboardButton("Cancel",callback_data = "cancel"),
+        			InlineKeyboardButton("Cancel",callback_data = "cancel")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -16,7 +16,7 @@ async def upgrade(bot,update):
 async def upgradecm(bot,message):
 	text = """ """
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("👤  MAHESH  👤",url = "https://t.me/MaHi_458Bot")], 
-        			[InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8"),
-        			InlineKeyboardButton("🎫  PAYTM  🎫",url = "https://p.paytm.me/xCTH/6pd91cj8")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Cancel",callback_data = "cancel")], 
+        			[InlineKeyboardButton("Cancel",callback_data = "cancel"),
+        			InlineKeyboardButton("Cancel",callback_data = "cancel")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
