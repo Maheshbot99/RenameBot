@@ -27,7 +27,7 @@ async def upgrade(bot,update):
 • send your files to me to rename.."""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Buy-05-14")], 
-        			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
+        			[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -56,5 +56,5 @@ async def upgradecm(bot,message):
 • send your files to me to rename.."""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Buy-05-14")], 
-        			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
+        			[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
