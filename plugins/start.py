@@ -49,11 +49,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("ʜᴇʟᴩ", url="https://t.me/MaHi_458Bot")],
-                                      [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ", url="https://p.paytm.me/xCTH/6pd91cj8")],
+                                      [[InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                      [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
                                       [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                       InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                      [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
+                                      [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
                                       ]))
         return
     if id:
@@ -63,11 +63,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("ʜᴇʟᴩ", url="https://t.me/MaHi_458Bot")],
-                                              [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ", url="https://p.paytm.me/xCTH/6pd91cj8")],
+                                             [[InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                              [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
                                               [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                              InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                             [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
+                                             [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
                                           ]))
             except:
                 return
@@ -81,7 +81,7 @@ async def start(client, message):
 	ʜᴇʟʟᴏ - {message.from_user.mention} , \nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ. \n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("ʜᴇʟᴩ", url="https://t.me/MaHi_458Bot")],
+                                         [[InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
                                           [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ", url="https://p.paytm.me/xCTH/6pd91cj8")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                           InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
