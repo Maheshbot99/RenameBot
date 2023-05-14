@@ -49,11 +49,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                      [[InlineKeyboardButton("ʜᴇʟᴩ",callback_data = "help")],
                                       [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
                                       [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                       InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                      [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
+                                      [InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "zdogrocky")]
                                       ]))
         return
     if id:
@@ -63,11 +63,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
-                                              [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                             [[InlineKeyboardButton("ʜᴇʟᴩ",callback_data = "help")],
+                                              [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "zdogrocky")],
                                               [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                              InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                             [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
+                                             [InlineKeyboardButton("ʜᴇʟᴩ",callback_data = "zdogrocky")]
                                           ]))
             except:
                 return
@@ -81,11 +81,11 @@ async def start(client, message):
 	ʜᴇʟʟᴏ - {message.from_user.mention} , \nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ. \n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
-                                          [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                         [[InlineKeyboardButton("ʜᴇʟᴩ",callback_data = "zdogrocky")],
+                                          [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "zdogrocky")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                           InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                          [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
+                                          [InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "zdogrocky")]
                                           ]))
     
 
@@ -123,11 +123,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"**✨ Hello dear {message.from_user.first_name} ✨** \n**we are currently working on this issue** \n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
-                                                                     [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                                                     [InlineKeyboardButton("ʜᴇʟᴩ",callback_data = "zdogrocky")],
+                                                                     [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "zdogrocky")],
                                                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                                                      InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                                                     [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
+                                                                     [InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "zdogrocky")]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
