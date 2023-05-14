@@ -111,7 +111,7 @@ async def send_doc(client, message):
         prsize = bot_data['total_size']
         user_deta = find_one(user_id)
     except:
-        await message.reply_text("Use About cmd first /about")
+        await message.reply_text("Use About cmd first /myplan")
     try:
         used_date = user_deta["date"]
         buy_date = user_deta["prexdate"]
