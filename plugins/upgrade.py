@@ -13,8 +13,8 @@ async def upgrade(bot,update):
 **⌾ ᴠᴀʟɪᴅɪᴛʏ** :- Life Time"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
-        			[InlineKeyboardButton("Cancel",callback_data = "zdogrocky1"),
-        			InlineKeyboardButton("Cancel",callback_data = "zdogrocky2")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "zdogrocky1"),
+        			InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ",callback_data = "zdogrocky2")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
