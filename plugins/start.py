@@ -100,7 +100,7 @@ async def send_doc(client, message):
             await message.reply_text("**__You are not subscribed my channel__** ",
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
+                                         [[InlineKeyboardButton("❆ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴩ ᴄʜᴀɴɴᴇʟ ❆", url=f"https://t.me/{update_channel}")]]))
             await client.send_message(log_channel,f"🦋 #ReName_MsBot 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
