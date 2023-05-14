@@ -82,10 +82,10 @@ async def start(client, message):
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
-                                          [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ", url="https://p.paytm.me/xCTH/6pd91cj8")],
+                                          [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                           InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                          [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458')]
+                                          [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
                                           ]))
     
 
@@ -123,11 +123,11 @@ async def send_doc(client, message):
     except:
         await message.reply_text(text=f"**✨ Hello dear {message.from_user.first_name} ✨** \n**we are currently working on this issue** \n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
-                                                                     [InlineKeyboardButton("ʜᴇʟᴩ", url='https://t.me/MaHi_458Bot')],
-                                                                     [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ", url='https://p.paytm.me/xCTH/6pd91cj8')],
+                                                                     [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
+                                                                     [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")],
                                                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/NKMDB_Support'),
                                                                      InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/Cinema_Rockets')],
-                                                                     [InlineKeyboardButton("👤 MAHESH 👤", url='https://t.me/MaHi_458Bot')]
+                                                                     [InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
