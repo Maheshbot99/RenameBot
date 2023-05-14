@@ -14,10 +14,10 @@ async def add_caption(client, message):
 async def delete_caption(client, message): 
     caption = find(int(message.chat.id))[1]
     if not caption:
-        await message.reply_text("**You dont have any custom caption**")
+        await message.reply_text("**yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴy ᴄᴏꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**")
         return
     delcaption(int(message.chat.id))
-    await message.reply_text("**Your caption successfully deleted ✅**")
+    await message.reply_text("**ᴄᴏꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ ᴅᴇʟᴇᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy !!**")
                                        
 @Client.on_message(filters.private & filters.command('see_caption'))
 async def see_caption(client, message): 
@@ -25,5 +25,5 @@ async def see_caption(client, message):
     if caption:
        await message.reply_text(f"<b><u>Your Caption:</b></u>\n\n`{caption}`")
     else:
-       await message.reply_text("**You dont have any custom caption**")
+       await message.reply_text("**yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴy ᴄᴏꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**")
           
