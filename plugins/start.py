@@ -139,7 +139,7 @@ async def send_doc(client, message):
     conversion = datetime.timedelta(seconds=left)
     ltime = str(conversion)
     if left > 0:
-        await message.reply_text(f"```Sorry Dude I am not only for YOU \n Flood control is active so please wait for {ltime}```", reply_to_message_id=message.id)
+        await message.reply_text(f"```ꜱᴏʀʀy ᴅᴜᴅᴇ ɪ ᴀᴍ ɴᴏᴛ ᴏɴʟy ꜰᴏʀ yᴏᴜ \n ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ ɪꜱ ᴀᴄᴛɪᴠᴇ ꜱᴏ ᴩʟᴇᴀꜱᴇ ᴡᴀɪᴛ ꜰᴏʀ {ltime}```", reply_to_message_id=message.id)
     else:
         # Forward a single message
         media = await client.get_messages(message.chat.id, message.id)
@@ -160,7 +160,7 @@ async def send_doc(client, message):
             used_limit(message.from_user.id, 0)
         remain = limit - used
         if remain < int(file.file_size):
-            await message.reply_text(f"100% of daily {humanbytes(limit)} data quota exhausted.\n\n  File size detected {humanbytes(file.file_size)}\n  Used Daily Limit {humanbytes(used)}\n\nYou have only **{humanbytes(remain)}** left on your Account.\nIf U Want to Rename Large File Upgrade Your Plan ", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ", callback_data="upgrade")]]))
+            await message.reply_text(f"100% ᴏꜰ ᴅᴀɪʟy {humanbytes(limit)} ᴅᴀᴛᴀ qᴜᴏᴛᴀ ᴇxʜᴀᴜꜱᴛᴇᴅ.\n\n  ꜰɪʟᴇ ꜱɪᴢᴇ ᴅᴇᴛᴇꜱᴛᴇᴅ {humanbytes(file.file_size)}\n  ᴜꜱᴇᴅ ᴅᴀɪʟy ʟɪᴍɪᴛ {humanbytes(used)}\n\nyᴏᴜ ʜᴀᴠᴇ ᴏɴʟy **{humanbytes(remain)}** ʟᴇꜰᴛ ᴏɴ yᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ.\nɪꜰ yᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇɴᴀᴍᴇ ʟᴀʀɢᴇ ꜰɪʟᴇ ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʟᴀɴ ", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ", callback_data="upgrade")]]))
             return
         if value < file.file_size:
             
