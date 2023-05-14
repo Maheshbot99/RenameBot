@@ -6,7 +6,7 @@ from pyrogram import Client , filters
 async def upgrade(bot,update):
 	text = """ """
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("👤 MAHESH 👤",url = "https://graph.org/Buy-05-14")], 
+        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Buy-05-14")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
