@@ -65,7 +65,7 @@ async def start(client, message):
                                              [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                               [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
                                              InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                             [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = 'myplan')]
+                                             [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                           ]))
             except:
                 return
@@ -82,7 +82,7 @@ async def start(client, message):
                                          [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
                                           InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                          [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = 'myplan')]
+                                          [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                           ]))
     
 
@@ -123,7 +123,7 @@ async def send_doc(client, message):
                                                                      [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
                                                                      InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                                                     [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = 'myplan')]
+                                                                     [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
