@@ -8,9 +8,9 @@ async def upgrade(bot,update):
 
 **ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("• ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade")], 
-        			[InlineKeyboardButton("• ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade"),
-        			InlineKeyboardButton("• ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ •",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "settings")  ]])
+        			InlineKeyboardButton("ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ",callback_data = "setthumb")], 
+        			[InlineKeyboardButton("ꜱʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ",callback_data = "viewthumb"),
+        			InlineKeyboardButton("ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ",callback_data = "delthumb")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "settings")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -20,7 +20,7 @@ async def upgradecm(bot,message):
 
 **ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("• ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade")], 
-        			[InlineKeyboardButton("• ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade"),
-        			InlineKeyboardButton("• ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ •",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "settings")  ]])
+        			InlineKeyboardButton("ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ",callback_data = "setthumb")], 
+        			[InlineKeyboardButton("ꜱʜᴏᴡ ᴛʜᴜᴍʙɴᴀɪʟ",callback_data = "viewthumb"),
+        			InlineKeyboardButton("ᴅᴇʟᴇᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ",callback_data = "delthumb")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "settings")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
