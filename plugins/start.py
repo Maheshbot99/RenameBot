@@ -52,7 +52,7 @@ async def start(client, message):
                                       [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                       [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
                                       InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                      [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = 'myplan')]
+                                      [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = 'myplan')]
                                       ]))
         return
     if id:
@@ -65,7 +65,7 @@ async def start(client, message):
                                              [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                               [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
                                              InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                             [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = 'myplan')]
+                                             [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = 'myplan')]
                                           ]))
             except:
                 return
@@ -82,7 +82,7 @@ async def start(client, message):
                                          [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
                                           InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
-                                          [InlineKeyboardButton("•  ᴄᴜʀʀᴇɴᴛ ꜱᴛᴀᴛᴜꜱ  •",callback_data = 'myplan')]
+                                          [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = 'myplan')]
                                           ]))
     
 
