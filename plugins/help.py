@@ -4,9 +4,20 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('settings'))
 async def upgrade(bot,update):
-	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
+	text = """ **📚 ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ :**
+➢ /start - **ᴄʜᴇᴄᴋ ɪ'ᴍ ᴀʟɪᴠᴇ**
+➢ /myplan - **ᴄʜᴇᴄᴋ yᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ**
+➢ /upgrade - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴩʟᴀɴ ɪɴꜰᴏ**
+➢ /help - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ɪɴꜰᴏ**
+➢ /set_caption - **ᴛᴏ ᴀᴅᴅ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /see_caption - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /del_caption - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /viewthumb - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
+➢ /delthumb - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**• ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇɴᴀᴍɪɴɢ ᴇxᴩᴇʀɪᴇɴᴄᴇ.**
+**• ꜱᴇɴᴅ ᴀ ᴩʜᴏᴛᴏ ᴛᴏ ᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ**
+**• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
@@ -16,9 +27,20 @@ async def upgrade(bot,update):
 
 @Client.on_message(filters.private & filters.command(["settings"]))
 async def upgradecm(bot,message):
-	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
+	text = """ **📚 ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ :**
+➢ /start - **ᴄʜᴇᴄᴋ ɪ'ᴍ ᴀʟɪᴠᴇ**
+➢ /myplan - **ᴄʜᴇᴄᴋ yᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ**
+➢ /upgrade - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴩʟᴀɴ ɪɴꜰᴏ**
+➢ /help - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ɪɴꜰᴏ**
+➢ /set_caption - **ᴛᴏ ᴀᴅᴅ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /see_caption - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /del_caption - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /viewthumb - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
+➢ /delthumb - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**• ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇɴᴀᴍɪɴɢ ᴇxᴩᴇʀɪᴇɴᴄᴇ.**
+**• ꜱᴇɴᴅ ᴀ ᴩʜᴏᴛᴏ ᴛᴏ ᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ**
+**• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
