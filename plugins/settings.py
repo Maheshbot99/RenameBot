@@ -2,15 +2,11 @@
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 from pyrogram import Client , filters
 
-@Client.on_callback_query(filters.regex('upgrade'))
+@Client.on_callback_query(filters.regex('settings'))
 async def upgrade(bot,update):
-	text = """ **🏷 ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ** :- {user}
+	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 2.01 GB
-**⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 1 min
-**⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- False
-**⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 1 
-**⌾ ᴠᴀʟɪᴅɪᴛʏ** :- Life Time"""
+**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
@@ -18,15 +14,11 @@ async def upgrade(bot,update):
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
-@Client.on_message(filters.private & filters.command(["upgrade"]))
+@Client.on_message(filters.private & filters.command(["settings"]))
 async def upgradecm(bot,message):
-	text = """ **🏷 ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ** :- {user}
+	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 2.01 GB
-**⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 1 min
-**⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- False
-**⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 1 
-**⌾ ᴠᴀʟɪᴅɪᴛʏ** :- Life Time"""
+**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
