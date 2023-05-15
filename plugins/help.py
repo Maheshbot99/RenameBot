@@ -4,15 +4,20 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('help'))
 async def upgrade(bot,update):
-	text = """ **🏷 ᴘʟᴀɴ** :- Silver 🥈
+	text = """ **📚 ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ :**
+➢ /start - **ᴄʜᴇᴄᴋ ɪ'ᴍ ᴀʟɪᴠᴇ**
+➢ /myplan - **ᴄʜᴇᴄᴋ yᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ**
+➢ /upgrade - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴩʟᴀɴ ɪɴꜰᴏ**
+➢ /help - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ɪɴꜰᴏ**
+➢ /set_caption - **ᴛᴏ ᴀᴅᴅ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /see_caption - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /del_caption - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /viewthumb - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
+➢ /delthumb - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
 
-**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 10.0 GB
-**⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 0 minutes
-**⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- True
-**⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 3
-**⌾ ᴠᴀʟɪᴅɪᴛʏ** :- 30 Days
-
-**💰 ᴘʀɪᴄᴇ 59₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
+**• ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇɴᴀᴍɪɴɢ ᴇxᴩᴇʀɪᴇɴᴄᴇ.**
+**• ꜱᴇɴᴅ ᴀ ᴩʜᴏᴛᴏ ᴛᴏ ᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ**
+**• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Subscription-05-14-3")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
@@ -21,15 +26,20 @@ async def upgrade(bot,update):
 
 @Client.on_message(filters.private & filters.command(["help"]))
 async def upgradecm(bot,message):
-	text = """ **🏷 ᴘʟᴀɴ** :- Silver 🥈
+	text = """ **📚 ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ :**
+➢ /start - **ᴄʜᴇᴄᴋ ɪ'ᴍ ᴀʟɪᴠᴇ**
+➢ /myplan - **ᴄʜᴇᴄᴋ yᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ**
+➢ /upgrade - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴩʟᴀɴ ɪɴꜰᴏ**
+➢ /help - **ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ɪɴꜰᴏ**
+➢ /set_caption - **ᴛᴏ ᴀᴅᴅ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /see_caption - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /del_caption - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!**
+➢ /viewthumb - **ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
+➢ /delthumb - **ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!**
 
-**⌾ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ** :- 10.0 GB
-**⌾ ᴛɪᴍᴇ ɢᴀᴘ** :- 0 minutes
-**⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- True
-**⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- 3
-**⌾ ᴠᴀʟɪᴅɪᴛʏ** :- 30 Days
-
-**💰 ᴘʀɪᴄᴇ 59₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
+**• ᴜᴩɢʀᴀᴅᴇ yᴏᴜʀ ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴ ꜰᴏʀ ʙᴇᴛᴛᴇʀ ʀᴇɴᴀᴍɪɴɢ ᴇxᴩᴇʀɪᴇɴᴄᴇ.**
+**• ꜱᴇɴᴅ ᴀ ᴩʜᴏᴛᴏ ᴛᴏ ᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ**
+**• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Subscription-05-14-3")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
