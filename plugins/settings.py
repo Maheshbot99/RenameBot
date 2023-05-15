@@ -30,7 +30,7 @@ async def upgradecm(bot,message):
 async def upgrade(bot,update):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
@@ -42,7 +42,7 @@ async def upgrade(bot,update):
 async def upgradecm(bot,message):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**ꜱᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
@@ -54,7 +54,7 @@ async def upgradecm(bot,message):
 async def upgrade(bot,update):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**ꜱᴇᴛ ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
@@ -66,7 +66,7 @@ async def upgrade(bot,update):
 async def upgradecm(bot,message):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**ꜱᴇᴛ ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "zdogrocky")], 
         			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "21k1"),
