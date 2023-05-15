@@ -51,7 +51,7 @@ async def start(client, message):
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                       [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
-                                      InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
+                                      InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],
                                       [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                       ]))
         return
@@ -64,7 +64,7 @@ async def start(client, message):
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                               [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
-                                             InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
+                                             InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],
                                              [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                           ]))
             except:
@@ -81,7 +81,7 @@ async def start(client, message):
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                           [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
-                                          InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
+                                          InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],
                                           [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                           ]))
     
@@ -122,7 +122,7 @@ async def send_doc(client, message):
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
-                                                                     InlineKeyboardButton("ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ", url='https://t.me/MsMovieRequests')],
+                                                                     InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],
                                                                      [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                                                     ]))
         await message.reply_text(text=f"🦋")
