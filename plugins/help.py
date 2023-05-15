@@ -41,6 +41,6 @@ async def upgradecm(bot,message):
 **• ꜱᴇɴᴅ ᴀ ᴩʜᴏᴛᴏ ᴛᴏ ᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ**
 **• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/Subscription-05-14-3")], 
-        			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
+        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")], 
+        			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
