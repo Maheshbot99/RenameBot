@@ -26,7 +26,7 @@ async def upgradecm(bot,message):
 	await message.reply_text(text = text,reply_markup = keybord)
 
 #thumb_settings
-@Client.on_callback_query(filters.regex('settings'))
+@Client.on_callback_query(filters.regex('kingmahi'))
 async def upgrade(bot,update):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
@@ -38,7 +38,7 @@ async def upgrade(bot,update):
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
-@Client.on_message(filters.private & filters.command(["settings"]))
+@Client.on_message(filters.private & filters.command(["kingmahi"]))
 async def upgradecm(bot,message):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
@@ -50,7 +50,7 @@ async def upgradecm(bot,message):
 	await message.reply_text(text = text,reply_markup = keybord)
 
 #caption_setting
-@Client.on_callback_query(filters.regex('settings'))
+@Client.on_callback_query(filters.regex('qingdog'))
 async def upgrade(bot,update):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
@@ -62,7 +62,7 @@ async def upgrade(bot,update):
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
-@Client.on_message(filters.private & filters.command(["settings"]))
+@Client.on_message(filters.private & filters.command(["qingdog"]))
 async def upgradecm(bot,message):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
