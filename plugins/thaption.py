@@ -6,11 +6,11 @@ from pyrogram import Client , filters
 async def upgrade(bot,update):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**ꜱᴇᴛ ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("• ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade")], 
-        			[InlineKeyboardButton("• ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade"),
-        			InlineKeyboardButton("• ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ •",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ꜱᴇᴛ ᴄᴀᴩᴛɪᴏɴ",callback_data = "upgrade")], 
+        			[InlineKeyboardButton("ꜱʜᴏᴡ ᴄᴀᴩᴛɪᴏɴ",callback_data = "upgrade"),
+        			InlineKeyboardButton("ᴅᴇʟᴇᴛᴇ ᴄᴀᴩᴛɪᴏɴ",callback_data = "upgrade")],[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "settings")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -18,9 +18,9 @@ async def upgrade(bot,update):
 async def upgradecm(bot,message):
 	text = """ **⚙️ ꜱᴇᴛᴛɪɴɢꜱ**
 
-**ᴄᴏɴꜰɪɢᴜʀᴇ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
+**ꜱᴇᴛ ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ ᴀꜱ yᴏᴜʀ ᴡɪꜱʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("• ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade")], 
-        			[InlineKeyboardButton("• ᴄᴀᴩᴛɪᴏɴ ꜱᴇᴛᴛɪɴɢꜱ •",callback_data = "upgrade"),
-        			InlineKeyboardButton("• ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ •",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ꜱᴇᴛ ᴄᴀᴩᴛɪᴏɴ",callback_data = "upgrade")], 
+        			[InlineKeyboardButton("ꜱʜᴏᴡ ᴄᴀᴩᴛɪᴏɴ",callback_data = "upgrade"),
+        			InlineKeyboardButton("ᴅᴇʟᴇᴛᴇ ᴄᴀᴩᴛɪᴏɴ",callback_data = "upgrade")],[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "settings")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
