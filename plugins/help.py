@@ -19,9 +19,9 @@ async def upgrade(bot,update):
 **• ꜱᴇɴᴅ ᴀ ᴩʜᴏᴛᴏ ᴛᴏ ᴍᴇ ᴛᴏ ᴀᴅᴅ ᴀꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ**
 **• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ",callback_data = "settings")], 
-        			[InlineKeyboardButton("🏆 ɢᴏʟᴅ",callback_data = "restart"),
-        			InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("⚙  ꜱᴇᴛᴛɪɴɢꜱ ",callback_data = "settings")], 
+        			[InlineKeyboardButton("🫨 ʀᴇꜱᴛᴀʀᴛ ʙᴏᴛ",callback_data = "restart"),
+        			InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
