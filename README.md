@@ -85,17 +85,17 @@ restart - 𝑅𝑒𝑠𝑡𝑎𝑟𝑡 𝐵𝑜𝑡
  ```
 
 ### Admin Commands
+```
+users - 𝑇𝑜 𝑣𝑖𝑒𝑤 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑢𝑠𝑒𝑟𝑠, 𝑢𝑠𝑖𝑛𝑔 𝐵𝑂𝑇 [𝐹𝑂𝑅 𝐴𝐷𝑀𝐼𝑁𝑆 𝑈𝑆𝐸 𝑂𝑁𝐿𝑌]
+ 
+broadcast - 𝑀𝑒𝑠𝑠𝑎𝑔𝑒 𝐵𝑟𝑜𝑎𝑑𝑐𝑎𝑠𝑡 𝑐𝑜𝑚𝑚𝑎𝑛𝑑 [𝐹𝑂𝑅 𝐴𝐷𝑀𝐼𝑁𝑆 𝑈𝑆𝐸 𝑂𝑁𝐿𝑌].
+ 
+ceasepower - 𝑇𝑜 𝑐𝑒𝑎𝑠𝑒(𝑑𝑜𝑤𝑛𝑔𝑟𝑎𝑑𝑒) 𝑟𝑒𝑛𝑎𝑚𝑖𝑛𝑔 𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑦 [𝐹𝑂𝑅 𝐴𝐷𝑀𝐼𝑁𝑆 𝑈𝑆𝐸 𝑂𝑁𝐿𝑌].
+ 
+resetpower - 𝑇𝑜 𝑟𝑒𝑠𝑒𝑡 𝑟𝑒𝑛𝑎𝑚𝑖𝑛𝑔 𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑦 (𝑡𝑜 𝑑𝑒𝑓𝑎𝑢𝑙𝑡 2.0 𝐺𝐵)  [𝐹𝑂𝑅 𝐴𝐷𝑀𝐼𝑁𝑆 𝑈𝑆𝐸 𝑂𝑁𝐿𝑌].
 
-`/lazyusers` - To view list of users, using BOT [FOR ADMINS USE ONLY]
- 
-`/broadcast` - Message Broadcast command [FOR ADMINS USE ONLY].
- 
-`/ceasepower` - To cease(downgrade) renaming capacity [FOR ADMINS USE ONLY].
- 
-`/resetpower` - To reset renaming capacity (to default 1.2 GB)  [FOR ADMINS USE ONLY].
- 
-`/addpremium` - To upgrade user plan to SILVER - GOLD - DIAMOND  [FOR ADMINS USE ONLY].
-
+ addpremium - 𝑇𝑜 𝑢𝑝𝑔𝑟𝑎𝑑𝑒 𝑢𝑠𝑒𝑟 𝑝𝑙𝑎𝑛 𝑡𝑜 𝑆𝐼𝐿𝑉𝐸𝑅 - 𝐺𝑂𝐿𝐷 - 𝐷𝐼𝐴𝑀𝑂𝑁𝐷  [𝐹𝑂𝑅 𝐴𝐷𝑀𝐼𝑁𝑆 𝑈𝑆𝐸 𝑂𝑁𝐿𝑌].
+```
 
 ### 🔗 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐔𝐬
 - [ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴩᴏ](https://telegram.me/MaHi_458)
