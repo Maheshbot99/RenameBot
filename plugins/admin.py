@@ -22,19 +22,19 @@ async def warn(c, m):
 
 @Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["addpremium"]))
 async def buypremium(bot, message):
-	await message.reply_text("⊚ Select Plan to upgrade...", quote=True, reply_markup=InlineKeyboardMarkup([
+	await message.reply_text("⊚ ꜱᴇʟᴇᴄᴛ ᴩʟᴀɴ ᴛᴏ ᴜᴩɢʀᴀᴅᴇ...", quote=True, reply_markup=InlineKeyboardMarkup([
 		           [
-				   InlineKeyboardButton("🪙 Silver", callback_data="vip1")
+				   InlineKeyboardButton("🪙 ꜱɪʟᴠᴇʀ", callback_data="vip1")
 				   ], [
-					InlineKeyboardButton("💫Gold", callback_data="vip2")
+					InlineKeyboardButton("💫 ɢᴏʟᴅ", callback_data="vip2")
 				   ], [
-					InlineKeyboardButton("💎 Diamond", callback_data="vip3")
+					InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ", callback_data="vip3")
 					]]))
 
 
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["ceasepower"]))
 async def ceasepremium(bot, message):
-	await message.reply_text("⊚ POWER CEASE MODE", quote=True, reply_markup=InlineKeyboardMarkup([
+	await message.reply_text("⊚ ᴩᴏᴡᴇʀ ᴄᴇᴀꜱᴇ ᴍᴏᴅᴇ", quote=True, reply_markup=InlineKeyboardMarkup([
 		           [InlineKeyboardButton("•× Limit 500MB ×•", callback_data="cp1"),
 				    InlineKeyboardButton("•× Limit 100MB ×•", callback_data="cp2")
 				   ], [
@@ -44,9 +44,9 @@ async def ceasepremium(bot, message):
 
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["resetpower"]))
 async def resetpower(bot, message):
-	    await message.reply_text(text=f"⊚ Do you really want to reset daily limit to default data limit 1.2GB ?",quote=True,reply_markup=InlineKeyboardMarkup([
-		           [InlineKeyboardButton("• YES ! Set as Default •",callback_data = "dft")],
-				   [InlineKeyboardButton("❌ Cancel ❌",callback_data = "cancel")]
+	    await message.reply_text(text=f"⊚ ᴅᴏ yᴏᴜ ʀᴇᴀʟʟy ᴡᴀɴᴛ ᴛᴏ ʀᴇꜱᴇᴛ ᴅᴀɪʟy ʟɪᴍɪᴛ ᴛᴏ ᴅᴇꜰᴀᴜʟᴛ ᴅᴀᴛᴀ ʟɪᴍɪᴛ 2.0ɢʙ ?",quote=True,reply_markup=InlineKeyboardMarkup([
+		           [InlineKeyboardButton("• yᴇꜱ ! ꜱᴇᴛ ᴀꜱ ᴅᴇꜰᴀᴜʟᴛ •",callback_data = "dft")],
+				   [InlineKeyboardButton("❌ ᴄᴀɴᴄᴇʟ",callback_data = "cancel")]
 				   ]))
 
         			
@@ -56,9 +56,9 @@ async def vip1(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit  = 10737418240
 	uploadlimit(int(user_id),10737418240)
-	usertype(int(user_id),"🪙 **SILVER**")
+	usertype(int(user_id),"🪙 **ꜱɪʟᴠᴇʀ**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 10 GB")
+	await update.message.edit("ᴀᴅᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy ᴛᴏ ᴩʀᴇᴍɪᴜᴍ ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ 10ɢʙ")
 	await bot.send_message(user_id,"Hey you are Upgraded To silver. check your plan here /myplan")
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To silver. check your plan here /myplan")
 
