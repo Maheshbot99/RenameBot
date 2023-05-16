@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝟒𝐆𝐁+𝐑𝐄𝐍𝐀𝐌𝐄+𝐁𝐎𝐓!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗘𝗔𝗠+𝐌𝐀𝐇𝐄𝐒𝐇𝐁𝐎𝐓𝟗𝟗!;𝗔+𝗦𝗜𝗠𝗣𝗟𝗘+𝗧𝗚+𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥+𝗕𝗢𝗧!)</p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠+𝗧𝗢+𝟒𝐆𝐁+𝐑𝐄𝐍𝐀𝐌𝐄+𝐁𝐎𝐓!;𝗖𝗥𝗘𝗔𝗧𝗘𝗗+𝗕𝗬+𝗧𝗘𝗔𝗠+𝐌𝐀𝐇𝐄𝐒𝐇𝐁𝐎𝐓𝟗𝟗!;𝗔+𝗦𝗜𝗠𝗣𝗟𝗘+𝟒𝐆𝐁+𝐑𝐄𝐍𝐀𝐌𝐄+𝐁𝐎𝐓!)</p>
 <img src="https://graph.org/file/ebaf5d8fe25efc1a006b4.png" alt="logo" target="/blank">
 
 <h1 align="center">
