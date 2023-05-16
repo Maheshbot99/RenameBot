@@ -36,11 +36,11 @@ async def buypremium(bot, message):
 async def buypremium(bot, message):
 	await message.reply_text("⊚ ꜱᴇʟᴇᴄᴛ ᴩʟᴀɴ ᴛᴏ ᴜᴩɢʀᴀᴅᴇ...", quote=True, reply_markup=InlineKeyboardMarkup([
 		           [
-				   InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ", callback_data="vip1")
+				   InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ", callback_data="start")
 				   ], [
-					InlineKeyboardButton("🏆 ɢᴏʟᴅ", callback_data="vip2")
+					InlineKeyboardButton("🏆 ɢᴏʟᴅ", callback_data="help")
 				   ], [
-					InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ", callback_data="vip3")
+					InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ", callback_data="cancel")
 
 
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["ceasepower"]))
