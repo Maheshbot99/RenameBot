@@ -24,9 +24,9 @@ async def warn(c, m):
 async def buypremium(bot, message):
 	await message.reply_text("⊚ ꜱᴇʟᴇᴄᴛ ᴩʟᴀɴ ᴛᴏ ᴜᴩɢʀᴀᴅᴇ...", quote=True, reply_markup=InlineKeyboardMarkup([
 		           [
-				   InlineKeyboardButton("🪙 ꜱɪʟᴠᴇʀ", callback_data="vip1")
+				   InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ", callback_data="vip1")
 				   ], [
-					InlineKeyboardButton("💫 ɢᴏʟᴅ", callback_data="vip2")
+					InlineKeyboardButton("🏆 ɢᴏʟᴅ", callback_data="vip2")
 				   ], [
 					InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ", callback_data="vip3")
 					]]))
@@ -56,7 +56,7 @@ async def vip1(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit  = 10737418240
 	uploadlimit(int(user_id),10737418240)
-	usertype(int(user_id),"🪙 **ꜱɪʟᴠᴇʀ**")
+	usertype(int(user_id),"🥈 **ꜱɪʟᴠᴇʀ**")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy ᴛᴏ ᴩʀᴇᴍɪᴜᴍ ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ 10ɢʙ")
 	await bot.send_message(user_id,"Hey you are Upgraded To silver. check your plan here /myplan")
@@ -68,7 +68,7 @@ async def vip2(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 53687091200
 	uploadlimit(int(user_id), 53687091200)
-	usertype(int(user_id),"💫 **GOLD**")
+	usertype(int(user_id),"🏆 **GOLD**")
 	addpre(int(user_id))
 	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Gold. check your plan here /myplan")
