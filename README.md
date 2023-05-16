@@ -5,7 +5,7 @@
  <b><a href="https://telegram.me/ReName_MsBot" target="/blank"> 𝟒𝐆𝐁 𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓! </a>   🇩 🇪 🇲 🇴  </>
 </h1>
 
-<p align="center">🤍 Thanks for Being Here 🤍</p>
+<p align="center">💰  𝙋𝙍𝙄𝙑𝘼𝙏𝙀 𝙍𝙀𝙋𝙊  💰</p>
 
 
 ###  **𝑅𝐸𝑄𝑈𝐼𝑅𝐸𝐷 𝑉𝐴𝑅𝐼𝐴𝐵𝐿𝐸𝑆** 
