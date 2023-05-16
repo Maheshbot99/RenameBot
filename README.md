@@ -8,7 +8,7 @@
 <p align="center">🤍 Thanks for Being Here 🤍</p>
 
 
-### ⚡️ Configs 
+###  𝑅𝐸𝑄𝑈𝐼𝑅𝐸𝐷 𝑉𝐴𝑅𝐼𝐴𝐵𝐿𝐸𝑆 
 
 * `TOKEN`  - Get bot token from @BotFather
 
@@ -26,6 +26,9 @@
 
 * `LAZY_PIC` - start message photo
 
+ 
+### ⚡️ 𝑂𝑃𝑇𝐼𝑂𝑁𝐴𝐿 𝑉𝐴𝑅𝐼𝐴𝐵𝐿𝐸𝑆
+ 
 * `STRING` - If you want to rename 4GB+ files. `[Note :- Remove string if bot don't works]`
 
 * `LOG_CHANNEL` - Log Channel I'D 
