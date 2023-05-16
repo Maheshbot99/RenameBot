@@ -106,7 +106,7 @@ async def cp2(bot,update):
 	usertype(int(user_id),"**ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ʟᴠ-2**")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ʟᴇᴠᴇʟ 2\nᴛʜᴇ ᴜꜱᴇʀ ᴄᴀɴ ᴏɴʟy ᴜꜱᴇ 100ᴍʙ/ᴅᴀy ꜰʀᴏᴍ ᴅᴀᴛᴀ qᴏᴛᴀ")
-	await bot.send_message(user_id,"⛔️ Last Warning ⛔️\n\n- ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ʟᴇᴠᴇʟ 2\nyᴏᴜ ᴄᴀɴ ᴏɴʟy ᴜꜱᴇ 100ᴍʙ/ᴅᴀy ꜰʀᴏᴍ ᴅᴀᴛᴀ qᴏᴛᴀ.\nᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ - /myplan")
+	await bot.send_message(user_id,"⛔️ ʟᴀꜱᴛ ᴡᴀʀɴɪɴɢ ⛔️\n\n- ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ʟᴇᴠᴇʟ 2\nyᴏᴜ ᴄᴀɴ ᴏɴʟy ᴜꜱᴇ 100ᴍʙ/ᴅᴀy ꜰʀᴏᴍ ᴅᴀᴛᴀ qᴏᴛᴀ.\nᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ - /myplan")
 
 @Client.on_callback_query(filters.regex('cp3'))
 async def cp3(bot,update):
