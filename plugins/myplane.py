@@ -37,7 +37,11 @@ async def start(client, message):
             uploadlimit(message.from_user.id, 2147483648)
             usertype(message.from_user.id, "Free")
     if ends == None:
-        text = f"**ᴜꜱᴇʀ ɪᴅ**:- ```{message.from_user.id}```\n**ᴩʟᴀɴ** :- {user}\n**ᴅᴀɪʟy ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ** :- {humanbytes(limit)}\n**ᴛᴏᴅᴀy ᴜꜱᴇᴅ** :- {humanbytes(used)}\n**ʀᴇᴍᴀɪɴ** :- {humanbytes(remain)}"
+        text = f"**ᴜꜱᴇʀ ɪᴅ**:- ```{message.from_user.id}```\n**ᴩʟᴀɴ** :- {user}\n**ᴅᴀɪʟy ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ** :- {humanbytes(limit)}\n**ᴛᴏᴅᴀy ᴜꜱᴇᴅ** :- {humanbytes(used)}\n**ʀᴇᴍᴀɪɴ** :- {humanbytes(remain)}" reply_to_message_id=message.id,
+                                     reply_markup=InlineKeyboardMarkup(
+                                         [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
+                                          [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
+                                          ]))
     else:
         normal_date = datetime.fromtimestamp(ends).strftime('%Y-%m-%d')
         text = f"**ᴜꜱᴇʀ ɪᴅ** :- ```{message.from_user.id}```\n**ᴩʟᴀɴ** :- {user}\n**ᴅᴀɪʟy ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ** :- {humanbytes(limit)}\n**ᴛᴏᴅᴀy ᴜꜱᴇᴅ** :- {humanbytes(used)}\n**ʀᴇᴍᴀɪɴ** :- {humanbytes(remain)}\n\n**yᴏᴜʀ ᴩʟᴀɴ ᴇɴᴅꜱ ᴏɴ** :- {normal_date}"
