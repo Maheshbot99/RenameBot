@@ -128,4 +128,4 @@ async def dft(bot,update):
 	usertype(int(user_id),"**ꜰʀᴇᴇ**")
 	addpre(int(user_id))
 	await update.message.edit(" ᴅᴀɪʟy ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀꜱ ʙᴇᴇɴ ʀᴇꜱᴛ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy.\nᴛʜɪꜱ ᴀᴄᴄᴏᴜɴᴛ ʜᴀꜱ ᴅᴇꜰᴀᴜʟᴛ 2.0 ɢʙ ʀᴇɴᴀᴍɪɴɢ ᴄᴀᴩᴀᴄɪᴛy ")
-	await bot.send_message(user_id,"yᴏᴜʀ ᴅᴀɪʟy ᴅᴀᴛᴀ ʟɪᴍɪᴛ has been reset successsfully.\n\nCheck your plan here - /myplan")
+	await bot.send_message(user_id,"yᴏᴜʀ ᴅᴀɪʟy ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀꜱ ʙᴇᴇɴ ʀᴇꜱᴇᴛ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy.\n\nᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ - /myplan")
