@@ -87,7 +87,8 @@
  
 `/about` - To view bot current status.
  
-`/upgrade` - To view all plans with price list of SILVER - GOLD - DIAMOND.```
+`/upgrade` - To view all plans with price list of SILVER - GOLD - DIAMOND.
+ ```
 
 ### Admin Commands
 
