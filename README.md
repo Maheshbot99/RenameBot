@@ -72,4 +72,4 @@ resetpower - 𝑇𝑜 𝑟𝑒𝑠𝑒𝑡 𝑟𝑒𝑛𝑎𝑚𝑖𝑛𝑔 𝑐
 
 #### 🔗 𝘿𝙀𝙋𝙇𝙊𝙔 𝙃𝙀𝙍𝙀
 - [ʜᴇʀᴏᴋᴜ](https://heroku.com/deploy?template=https://github.com/Maheshbot99/RenameBot)
-- [ᴋᴏyᴇʙ](https://app.koyeb.com/deploy?type=git&repository=github.com/Maheshbot99/RenameBot&branch=main&name=gngbabyrenamer)
+- [ᴋᴏyᴇʙ](https://app.koyeb.com/deploy?type=git&repository=github.com/Maheshbot99/RenameBot&branch=main&name=pvtrename)
