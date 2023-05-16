@@ -22,7 +22,7 @@
 
 * `DB_NAME`  - Your database name from mongoDB. Default will be 'my'
 
-* `CHANNEL` - your force sub channel username without @ 
+* `LOG_CHANNEL` - Log Channel I'D 
 
 * `LAZY_PIC` - start message photo
 
@@ -31,7 +31,7 @@
  
 * `STRING` - If you want to rename 4GB+ files. `[Note :- Remove string if bot don't works]`
 
-* `LOG_CHANNEL` - Log Channel I'D 
+ * `CHANNEL` - your force sub channel username without @ 
 
   ### 📶 DEPLOYEMENT SUPPORT
 
