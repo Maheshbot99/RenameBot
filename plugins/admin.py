@@ -32,7 +32,7 @@ async def buypremium(bot, message):
 					]]))
 
 
-@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["addpremium"]))
+@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["admincom"]))
 async def buypremium(bot, message):
 	await message.reply_text("⊚ ꜱᴇʟᴇᴄᴛ ᴩʟᴀɴ ᴛᴏ ᴜᴩɢʀᴀᴅᴇ...", quote=True, reply_markup=InlineKeyboardMarkup([
 		           [
