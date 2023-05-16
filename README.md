@@ -66,10 +66,10 @@ resetpower - 𝑇𝑜 𝑟𝑒𝑠𝑒𝑡 𝑟𝑒𝑛𝑎𝑚𝑖𝑛𝑔 𝑐
 ### 🔗 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐔𝐬
 - [ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴩᴏ](https://telegram.me/MaHi_458)
 - [ᴄʜᴀɴɴᴇʟ](https://telegram.me/Cinema_HDHub)
-- [ᴅᴇᴍᴏ ʙᴏᴛ](https://telegram.me/ReName_MsBot)]
+- [ᴅᴇᴍᴏ ʙᴏᴛ](https://telegram.me/ReName_MsBot)
 
 
 
 ### 🔗 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐔𝐬
-- [ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴩᴏ](https://telegram.me/MaHi_458)
-- [ᴄʜᴀɴɴᴇʟ](https://telegram.me/Cinema_HDHub)
+- [ʜᴇʀᴏᴋᴜ](https://heroku.com/deploy?template=https://github.com/Maheshbot99/RenameBot)
+- [ᴋᴏyᴇʙ](https://app.koyeb.com/deploy?type=git&repository=github.com/Maheshbot99/RenameBot&branch=main&name=gngbabyrenamer)
