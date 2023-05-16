@@ -33,41 +33,7 @@
 
  * `CHANNEL` - your force sub channel username without @ 
 
-  ### 📶 DEPLOYEMENT SUPPORT
 
-<details><summary>🔥 Deploy To Koyeb 🔥</summary>
-<p>
-<br>                 
-<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/Gangster-Baby-Renamer-V2&branch=main&name=gngbabyrenamer" >
-  <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
-
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/LazyDeveloperr/Gangster-Baby-Renamer-V2">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
-
-
-
-
-
-#### 🥰 Features
- - Renames very fast .
- - Permanent Thumbnail support.
- - Force join for the user for use.
- - Supports Broadcasts.
- - Set custom caption.
- - Has a custom Start-up pic.
- - Force subscribe available.
- - Supports ulimited renaming at a time.
- - Deploy to Koyeb + Heroku + Railway.
- - Developer Service 24x7. 🔥
 
 ### 🚦 User Commands
  ```
@@ -104,7 +70,6 @@ resetpower - 𝑇𝑜 𝑟𝑒𝑠𝑒𝑡 𝑟𝑒𝑛𝑎𝑚𝑖𝑛𝑔 𝑐
 
 
 
-### 🤩 INSPIRATION
-<a href="#">
-   <p>❣️ GANGSTER-BABY 🔥</p>
-</a>
+### 🔗 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐔𝐬
+- [ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴩᴏ](https://telegram.me/MaHi_458)
+- [ᴄʜᴀɴɴᴇʟ](https://telegram.me/Cinema_HDHub)
