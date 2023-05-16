@@ -71,23 +71,17 @@
 
 ### 🚦 User Commands
  ```
-`/start` - Check if the bot is running.
- 
-`/viewthumb` - To view current thumbnail.
- 
-`/delthumb` - To delete current thumbnail.
- 
-`/set_caption` - set a custom caption.
- 
-`/see_caption` - see your custom caption.
- 
-`/del_caption` - delete custom caption.
- 
-`/myplan` - To view users current plan.
- 
-`/about` - To view bot current status.
- 
-`/upgrade` - To view all plans with price list of SILVER - GOLD - DIAMOND.
+start - ᴄʜᴇᴄᴋ ɪ'ᴍ ᴀʟɪᴠᴇ
+myplan - ᴄʜᴇᴄᴋ yᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴘʟᴀɴ
+upgrade - ᴄʜᴇᴄᴋ ᴀᴠᴀɪʟᴀʙʟᴇ ᴩʟᴀɴ ɪɴꜰᴏ
+settings - ᴄᴏɴꜰɪɢᴜʀᴇ yᴏᴜʀ ꜱᴇᴛᴛɪɴɢꜱ
+set_caption - ᴛᴏ ᴀᴅᴅ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!
+see_caption - ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!
+del_caption - ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ !!
+viewthumb - ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!
+delthumb - ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ !!
+refer - ʀᴇꜰᴇʀ ᴀɴᴅ ᴇᴀʀɴ 100ᴍʙ ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ
+restart - ʀᴇꜱᴛᴀʀᴛ ʙᴏᴛ
  ```
 
 ### Admin Commands
