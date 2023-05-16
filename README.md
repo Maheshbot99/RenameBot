@@ -2,7 +2,7 @@
 <img src="https://graph.org/file/ebaf5d8fe25efc1a006b4.png" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://telegram.me/ReName_MsBot" target="/blank"> 𝟒𝐆𝐁 𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓! </a> -  🇩 🇪 🇲 🇴  </>
+ <b><a href="https://telegram.me/ReName_MsBot" target="/blank"> 𝟒𝐆𝐁 𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓! </a>   🇩 🇪 🇲 🇴  </>
 </h1>
 
 <p align="center">🤍 Thanks for Being Here 🤍</p>
@@ -101,16 +101,12 @@
 `/addpremium` - To upgrade user plan to SILVER - GOLD - DIAMOND  [FOR ADMINS USE ONLY].
 
 
-### 🔗 important_Links
-- [🤩 Create Auto Filter BOT](https://www.youtube.com/watch?v=jw3e4L1u-Vo&t=22s)
-- [🤩 Create FILE TO LINK BOT](https://www.youtube.com/watch?v=h3Uvr15ZPnc)
-- [🤩 Create Movie Request BOT](https://www.youtube.com/watch?v=mIEv7MjLj2U&t=38s)
-- [❣️ Join Youtube](https://www.youtube.com/@LazyDeveloperr)
+### 🔗 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐔𝐬
+- [ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜɪꜱ ʀᴇᴩᴏ](https://telegram.me/MaHi_458)
+- [ᴄʜᴀɴɴᴇʟ](https://telegram.me/Cinema_HDHub)
+- [ᴅᴇᴍᴏ ʙᴏᴛ](https://telegram.me/ReName_MsBot)]
 
 
-#### 🧡 Respecting... 🧡
-- [🔥 LazyDeveloperr](https://github.com/LazyDeveloperr) 
-- [🔥 Pyrogram](https://github.com/pyrogram/pyrogram)
 
 ### 🤩 INSPIRATION
 <a href="#">
