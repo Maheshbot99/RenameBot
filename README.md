@@ -2,7 +2,7 @@
 <img src="https://graph.org/file/ebaf5d8fe25efc1a006b4.png" alt="logo" target="/blank">
 
 <h1 align="center">
- <b><a href="https://telegram.me/ReName_MsBot" target="/blank"> 𝟒𝐆𝐁+𝐑𝐄𝐍𝐀𝐌𝐄+𝐁𝐎𝐓! \n( 🇩 🇪 🇲 🇴  ) </a></>
+ <b><a href="https://telegram.me/ReName_MsBot" target="/blank"> 𝟒𝐆𝐁+𝐑𝐄𝐍𝐀𝐌𝐄+𝐁𝐎𝐓! </a>( 🇩 🇪 🇲 🇴  )</>
 </h1>
 
 <p align="center">🤍 Thanks for Being Here 🤍</p>
