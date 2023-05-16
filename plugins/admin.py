@@ -32,6 +32,17 @@ async def buypremium(bot, message):
 					]]))
 
 
+@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["addpremium"]))
+async def buypremium(bot, message):
+	await message.reply_text("⊚ ꜱᴇʟᴇᴄᴛ ᴩʟᴀɴ ᴛᴏ ᴜᴩɢʀᴀᴅᴇ...", quote=True, reply_markup=InlineKeyboardMarkup([
+		           [
+				   InlineKeyboardButton("🥈 ꜱɪʟᴠᴇʀ", callback_data="vip1")
+				   ], [
+					InlineKeyboardButton("🏆 ɢᴏʟᴅ", callback_data="vip2")
+				   ], [
+					InlineKeyboardButton("💎 ᴅɪᴀᴍᴏɴᴅ", callback_data="vip3")
+
+
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["ceasepower"]))
 async def ceasepremium(bot, message):
 	await message.reply_text("⊚ ᴩᴏᴡᴇʀ ᴄᴇᴀꜱᴇ ᴍᴏᴅᴇ", quote=True, reply_markup=InlineKeyboardMarkup([
