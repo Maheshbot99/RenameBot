@@ -70,6 +70,7 @@
  - Developer Service 24x7. 🔥
 
 ### 🚦 User Commands
+ ```
 `/start` - Check if the bot is running.
  
 `/viewthumb` - To view current thumbnail.
@@ -86,7 +87,7 @@
  
 `/about` - To view bot current status.
  
-`/upgrade` - To view all plans with price list of SILVER - GOLD - DIAMOND.
+`/upgrade` - To view all plans with price list of SILVER - GOLD - DIAMOND.```
 
 ### Admin Commands
 
