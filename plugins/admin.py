@@ -35,10 +35,10 @@ async def buypremium(bot, message):
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["ceasepower"]))
 async def ceasepremium(bot, message):
 	await message.reply_text("⊚ ᴩᴏᴡᴇʀ ᴄᴇᴀꜱᴇ ᴍᴏᴅᴇ", quote=True, reply_markup=InlineKeyboardMarkup([
-		           [InlineKeyboardButton("•× Limit 500MB ×•", callback_data="cp1"),
-				    InlineKeyboardButton("•× Limit 100MB ×•", callback_data="cp2")
+		           [InlineKeyboardButton("• ʟɪᴍɪᴛ 500ᴍʙ •", callback_data="cp1"),
+				    InlineKeyboardButton("• ʟɪᴍɪᴛ 100ᴍʙ •", callback_data="cp2")
 				   ], [
-				    InlineKeyboardButton("•••× CEASE ALL POWER ×•••", callback_data="cp3")
+				    InlineKeyboardButton("• ᴄᴇᴀꜱᴇ ᴀʟʟ ᴩᴏᴡᴇʀ •", callback_data="cp3")
 				    ]]))
 
 
@@ -59,8 +59,8 @@ async def vip1(bot,update):
 	usertype(int(user_id),"🥈 **ꜱɪʟᴠᴇʀ**")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy ᴛᴏ ᴩʀᴇᴍɪᴜᴍ ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ 10ɢʙ")
-	await bot.send_message(user_id,"Hey you are Upgraded To silver. check your plan here /myplan")
-	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To silver. check your plan here /myplan")
+	await bot.send_message(user_id,"ʜᴇy yᴏᴜ ᴀʀᴇ ᴜᴩɢʀᴀᴅᴇᴅ ᴛᴏ ꜱɪʟᴠᴇʀ.  ᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ /myplan")
+	await bot.send_message(log_channel,f"⚡️ ᴩʟᴀɴ ᴜᴩɢʀᴀᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy 💥\n\nʜᴇy yᴏᴜ ᴀʀᴇ ᴜᴩɢʀᴀᴅᴇᴅ ᴛᴏ ꜱɪʟᴠᴇʀ. ᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ /myplan")
 
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
@@ -68,10 +68,10 @@ async def vip2(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 53687091200
 	uploadlimit(int(user_id), 53687091200)
-	usertype(int(user_id),"🏆 **GOLD**")
+	usertype(int(user_id),"🏆 **ɢᴏʟᴅ**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
-	await bot.send_message(user_id,"Hey you are Upgraded To Gold. check your plan here /myplan")
+	await update.message.edit("ᴀᴅᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy ᴛᴏ ᴩʀᴇᴍɪᴜᴍ ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ 50ɢʙ")
+	await bot.send_message(user_id,"ʜᴇy yᴏᴜ ᴀʀᴇ ᴜᴩɢʀᴀᴅᴇᴅ ᴛᴏ ɢᴏʟᴅ.  ᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ /myplan")
 
 @Client.on_callback_query(filters.regex('vip3'))
 async def vip3(bot,update):
@@ -79,10 +79,10 @@ async def vip3(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 107374182400
 	uploadlimit(int(user_id), 107374182400)
-	usertype(int(user_id),"💎 **DIAMOND**")
+	usertype(int(user_id),"💎 **ᴅɪᴀᴍᴏɴᴅ**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 100 GB")
-	await bot.send_message(user_id,"Hey you are Upgraded To Diamond. check your plan here /myplan")
+	await update.message.edit("ᴀᴅᴅᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy ᴛᴏ ᴩʀᴇᴍɪᴜᴍ ᴜᴩʟᴏᴀᴅ ʟɪᴍɪᴛ 100ɢʙ")
+	await bot.send_message(user_id,"ʜᴇy yᴏᴜ ᴀʀᴇ ᴜᴩɢʀᴀᴅᴇᴅ ᴛᴏ ᴅɪᴀᴍᴏɴᴅ.  ᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ /myplan")
 
 # CEASE POWER MODE @LAZYDEVELOPER
 
@@ -92,10 +92,10 @@ async def cp1(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit  = 524288000
 	uploadlimit(int(user_id),524288000)
-	usertype(int(user_id),"**ACCOUNT DOWNGRADED**")
+	usertype(int(user_id),"**ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ**")
 	addpre(int(user_id))
-	await update.message.edit("ACCOUNT DOWNGRADED\nThe user can only use 100MB/day from Data qota")
-	await bot.send_message(user_id,"⚠️ Warning ⚠️\n\n- ACCOUNT DOWNGRADED\nYou can only use 500MB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/MaHi_458'>**👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤**</a>🦋")
+	await update.message.edit("ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ\nᴛʜᴇ ᴜꜱᴇʀ ᴄᴀɴ ᴏɴʟy ᴜꜱᴇ 100ᴍʙ/ᴅᴀy ꜰʀᴏᴍ ᴅᴀᴛᴀ qᴏᴛᴀ")
+	await bot.send_message(user_id,"⚠️ ᴡᴀʀɴɪɴɢ⚠️\n\n- ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ\nyᴏᴜ ᴄᴀɴ ᴏɴʟy ᴜꜱᴇ 500ᴍʙ/ᴅᴀy ꜰʀᴏᴍ ᴅᴀᴛᴀ qᴏᴛᴀ.\nᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ - /myplan")
 
 @Client.on_callback_query(filters.regex('cp2'))
 async def cp2(bot,update):
@@ -103,10 +103,10 @@ async def cp2(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 104857600
 	uploadlimit(int(user_id), 104857600)
-	usertype(int(user_id),"**ACCOUNT DOWNGRADED Lv-2**")
+	usertype(int(user_id),"**ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ʟᴠ-2**")
 	addpre(int(user_id))
-	await update.message.edit("ACCOUNT DOWNGRADED to Level 2\nThe user can only use 100MB/day from Data qota")
-	await bot.send_message(user_id,"⛔️ Last Warning ⛔️\n\n- ACCOUNT DOWNGRADED to Level 2\nYou can only use 100MB/day from Data qota.\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/MaHi_458'>**👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤**</a>🦋")
+	await update.message.edit("ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ʟᴇᴠᴇʟ 2\nᴛʜᴇ ᴜꜱᴇʀ ᴄᴀɴ ᴏɴʟy ᴜꜱᴇ 100ᴍʙ/ᴅᴀy ꜰʀᴏᴍ ᴅᴀᴛᴀ qᴏᴛᴀ")
+	await bot.send_message(user_id,"⛔️ Last Warning ⛔️\n\n- ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ʟᴇᴠᴇʟ 2\nyᴏᴜ ᴄᴀɴ ᴏɴʟy ᴜꜱᴇ 100ᴍʙ/ᴅᴀy ꜰʀᴏᴍ ᴅᴀᴛᴀ qᴏᴛᴀ.\nᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ - /myplan")
 
 @Client.on_callback_query(filters.regex('cp3'))
 async def cp3(bot,update):
@@ -114,10 +114,10 @@ async def cp3(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 0
 	uploadlimit(int(user_id), 0)
-	usertype(int(user_id),"**POWER CEASED !**")
+	usertype(int(user_id),"**ᴩᴏᴡᴇʀ ᴄᴇᴀꜱᴇᴅ !**")
 	addpre(int(user_id))
-	await update.message.edit("All power ceased from the user.\nThis account has 0 mb renaming capacity ")
-	await bot.send_message(user_id,"🚫 All POWER CEASED 🚫\n\n- All power has been ceased from you \nFrom now you can't rename files using me\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/MaHi_458'>**👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤**</a>🦋")
+	await update.message.edit("ᴀʟʟ ᴩᴏᴡᴇʀ ᴄᴇᴀꜱᴇᴅ ꜰʀᴏᴍ ᴛʜᴇ ᴜꜱᴇʀ.\nᴛʜɪꜱ ᴀᴄᴄᴏᴜɴᴛ ʜᴀꜱ 0 ᴍʙ ʀᴇɴᴀᴍɪɴɢ ᴄᴀᴩᴀᴄɪᴛy")
+	await bot.send_message(user_id,"🚫 ᴀʟʟ ᴩᴏᴡᴇʀ ᴄᴇᴀꜱᴇᴅ 🚫\n\n- ᴀʟʟ ᴩᴏᴡᴇʀ ʜᴀꜱ ʙᴇᴇɴ ᴄᴇᴀꜱᴇᴅ ꜰʀᴏᴍ yᴏᴜ \nꜰʀᴏᴍ ɴᴏᴡ yᴏᴜ ᴄᴀɴ'ᴛ ʀᴇɴᴀᴍ ꜰɪʟᴇꜱ ᴜꜱɪɴɢ ᴍᴇ\nᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ - /myplan")
 
 @Client.on_callback_query(filters.regex('dft'))
 async def dft(bot,update):
@@ -125,7 +125,7 @@ async def dft(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 2147483648
 	uploadlimit(int(user_id), 2147483648)
-	usertype(int(user_id),"**Free**")
+	usertype(int(user_id),"**ꜰʀᴇᴇ**")
 	addpre(int(user_id))
-	await update.message.edit("Daily Data limit has been reset successsfully.\nThis account has default 1.2 GB renaming capacity ")
-	await bot.send_message(user_id,"Your Daily Data limit has been reset successsfully.\n\nCheck your plan here - /myplan\n- Contact Admin 🦋<a href='https://t.me/MaHi_458'>**👤  𝙼𝚊𝚑𝚎𝚜𝚑.𝚂  👤**</a>🦋")
+	await update.message.edit(" ᴅᴀɪʟy ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀꜱ ʙᴇᴇɴ ʀᴇꜱᴛ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy.\nᴛʜɪꜱ ᴀᴄᴄᴏᴜɴᴛ ʜᴀꜱ ᴅᴇꜰᴀᴜʟᴛ 2.0 ɢʙ ʀᴇɴᴀᴍɪɴɢ ᴄᴀᴩᴀᴄɪᴛy ")
+	await bot.send_message(user_id,"yᴏᴜʀ ᴅᴀɪʟy ᴅᴀᴛᴀ ʟɪᴍɪᴛ has been reset successsfully.\n\nCheck your plan here - /myplan")
