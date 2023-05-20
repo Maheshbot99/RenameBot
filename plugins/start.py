@@ -133,13 +133,13 @@ async def send_doc(client, message):
     if user_type == "Free":
         LIMIT = 600
     else:
-        LIMIT = 700
+        LIMIT = 685
     then = used_date + LIMIT
     left = round(then - c_time)
     conversion = datetime.timedelta(seconds=left)
     ltime = str(conversion)
     if left > 0:
-        await message.reply_text(f"```ꜱᴏʀʀy ᴅᴜᴅᴇ ɪ ᴀᴍ ɴᴏᴛ ᴏɴʟy ꜰᴏʀ yᴏᴜ \n ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ ɪꜱ ᴀᴄᴛɪᴠᴇ ꜱᴏ ᴩʟᴇᴀꜱᴇ ᴡᴀɪᴛ ꜰᴏʀ {ltime}```", reply_to_message_id=message.id)
+        await message.reply_text(f"```ꜱᴏʀʀy ᴅᴜᴅᴇ ɪ ᴀᴍ ɴᴏᴛ ᴏɴʟy ꜰᴏʀ yᴏᴜ \n ꜰʟᴏᴏᴅ ᴄᴏɴᴛʀᴏʟ ɪꜱ ᴀᴄᴛɪᴠᴇ ꜱᴏ ᴩʟᴇᴀꜱᴇ ᴡᴀɪᴛ ꜰᴏʀ``` **{ltime}**", reply_to_message_id=message.id)
     else:
         # Forward a single message
         media = await client.get_messages(message.chat.id, message.id)
