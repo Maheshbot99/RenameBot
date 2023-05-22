@@ -97,7 +97,7 @@ async def send_doc(client, message):
         except UserNotParticipant:
             _newus = find_one(message.from_user.id)
             user = _newus["usertype"]
-            await message.reply_text("**__You are not subscribed my channel__** ",
+            await message.reply_text("**{message.from_user.mention} , \nᴅᴜᴇ  ᴛᴏ  ᴏᴠᴇʀʟᴏᴀᴅ,  ᴏɴʟʏ  ᴄʜᴀɴɴᴇʟ ᴍᴇᴍʙᴇʀꜱ  ᴄᴀɴ  ᴜꜱᴇ  ᴍᴇ.**",
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("❆ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴩ ᴄʜᴀɴɴᴇʟ ❆", url=f"https://t.me/{update_channel}")]]))
