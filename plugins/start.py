@@ -130,7 +130,7 @@ async def send_doc(client, message):
 
     c_time = time.time()
 
-    if user_type == "Free":
+    if user_type == "free":
         LIMIT = 600
     else:
         LIMIT = 625
