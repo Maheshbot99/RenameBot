@@ -19,7 +19,7 @@ CHANNEL = os.environ.get('CHANNEL', "")
 STRING = os.environ.get("STRING", "")
 ADMIN = int(os.environ.get("ADMIN", 5450011131))
 bot_username = os.environ.get("BOT_USERNAME","")
-log_channel = int(os.environ.get("LOG_CHANNEL", "Rename4GB_Msbot"))
+log_channel = int(os.environ.get("LOG_CHANNEL", "Rename_Msbot"))
 token = os.environ.get('TOKEN', '')
 botid = token.split(':')[0]
 FLOOD = 500
@@ -50,7 +50,7 @@ async def start(client, message):
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
-                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
+                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
                                       InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],
                                       [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                       ]))
@@ -63,7 +63,7 @@ async def start(client, message):
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
-                                              [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
+                                              [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
                                              InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],
                                              [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                           ]))
@@ -80,7 +80,7 @@ async def start(client, message):
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
-                                          [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
+                                          [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
                                           InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],
                                           [InlineKeyboardButton("• ʜᴇʟᴩ •",callback_data = "help")]
                                           ]))
@@ -131,7 +131,7 @@ async def send_doc(client, message):
     c_time = time.time()
 
     if user_type == "free":
-        LIMIT = 700
+        LIMIT = 600
     else:
         LIMIT = 625
     then = used_date + LIMIT
