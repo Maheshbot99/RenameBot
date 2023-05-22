@@ -12,7 +12,7 @@ async def upgrade(bot,update):
 **⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- ```6```
 **⌾ ᴠᴀʟɪᴅɪᴛʏ** :- ```30 Days```
 
-**💰 ᴘʀɪᴄᴇ 100₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
+**💰 ᴘʀɪᴄᴇ 159₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/BUY-05-15")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
@@ -29,7 +29,7 @@ async def upgradecm(bot,message):
 **⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- ```6```
 **⌾ ᴠᴀʟɪᴅɪᴛʏ** :- ```30 Days```
 
-**💰 ᴘʀɪᴄᴇ 100₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
+**💰 ᴘʀɪᴄᴇ 159₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/BUY-05-15")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
