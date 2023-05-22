@@ -1,7 +1,6 @@
 import math
 import time
-from helper.txt import mr
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+
 
 async def progress_for_pyrogram(
     current,
@@ -24,12 +23,12 @@ async def progress_for_pyrogram(
         elapsed_time = TimeFormatter(milliseconds=elapsed_time)
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
-        progress = "{0}{1}".format(
+        progress = "[{0}{1}] \n**ᴩʀᴏɢʀᴇꜱꜱ**: {2}%\n".format(
             ''.join(["■" for i in range(math.floor(percentage / 5))]),
-            ''.join(["□" for i in range(20 - math.floor(percentage / 5))]))
-            
-        tmp = progress + mr.PROGRESS_BAR.format( 
-            round(percentage, 2),
+            ''.join(["□" for i in range(20 - math.floor(percentage / 5))]),
+            round(percentage, 2))
+
+        tmp = progress + "{0} of {1}\n**ꜱᴩᴇᴇᴅ**: {2}/s\n**ᴇᴛᴀ**: {3}\n".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
@@ -38,10 +37,9 @@ async def progress_for_pyrogram(
         )
         try:
             await message.edit(
-                text="{}\n\n{}".format(ud_type, tmp),               
-                reply_markup=InlineKeyboardMarkup( [[
-                    InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel")
-                    ]]
+                text="{}\n {}".format(
+                    ud_type,
+                    tmp
                 )
             )
         except:
