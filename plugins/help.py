@@ -21,7 +21,7 @@ async def upgrade(bot,update):
 **• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("⚙  ꜱᴇᴛᴛɪɴɢꜱ ",callback_data = "settings")], 
-        			[InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
+        			[InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
         			InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
@@ -45,6 +45,6 @@ async def upgradecm(bot,message):
 **• ꜱᴇɴᴅ yᴏᴜʀ ꜰɪʟᴇꜱ ᴛᴏ ᴍᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ**"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("⚙  ꜱᴇᴛᴛɪɴɢꜱ ",callback_data = "settings")], 
-        			[InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_HDHub'),
+        			[InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
         			InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")],[InlineKeyboardButton("• ᴄʟᴏꜱᴇ •",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
