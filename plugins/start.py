@@ -75,8 +75,8 @@ async def start(client, message):
             limit = _user_["uploadlimit"]
             new_limit = limit + 104857600
             uploadlimit(int(id), new_limit)
-            await message.reply_text(text=f"""
-	ʜᴇʟʟᴏ - {message.from_user.mention} , \nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ. \n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!
+            await message.reply_text(text=f"""**
+	ʜᴇʟʟᴏ - {message.from_user.mention} , \nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ʀᴇɴᴀᴍᴇʀ  ᴀɴᴅ  ᴄᴏɴᴠᴇʀᴛᴇʀ  ʙᴏᴛ  ᴡɪᴛʜ  ᴘᴇʀᴍᴀɴᴇɴᴛ  ᴀɴᴅ  ᴄᴜsᴛᴏᴍ  ᴛʜᴜᴍʙɴᴀɪʟ  sᴜᴘᴘᴏʀᴛ. \n\nᴊᴜsᴛ  sᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ᴠɪᴅᴇᴏ  ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛ !!**
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
@@ -111,14 +111,14 @@ async def send_doc(client, message):
         prsize = bot_data['total_size']
         user_deta = find_one(user_id)
     except:
-        await message.reply_text("Use About cmd first /myplan")
+        await message.reply_text("ᴜꜱᴇ ᴄᴍᴅ ꜰɪʀꜱᴛ /myplan")
     try:
         used_date = user_deta["date"]
         buy_date = user_deta["prexdate"]
         daily = user_deta["daily"]
         user_type = user_deta["usertype"]
     except:
-        await message.reply_text(text=f"ʜᴇʟʟᴏ {message.from_user.mention} , \n\nꜱᴏʀʀy ꜰᴏʀ ᴛʜɪꜱ ɪꜱꜱᴜᴇ \nᴡᴇ ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟy ᴡᴏʀᴋɪɴɢ ᴏɴ ᴛʜɪꜱ ɪꜱꜱᴜᴇ \nᴩʟᴇᴀꜱᴇ ʙᴜy ᴩʀᴇᴍɪᴜᴍ ᴏʀ ʀᴇꜱᴛᴀʀᴛ ʙᴏᴛ \n\nᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ - /restart",
+        await message.reply_text(text=f"**ʜᴇʟʟᴏ {message.from_user.mention} , \n\nꜱᴏʀʀy ꜰᴏʀ ᴛʜɪꜱ ɪꜱꜱᴜᴇ \nᴡᴇ ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟy ᴡᴏʀᴋɪɴɢ ᴏɴ ᴛʜɪꜱ ɪꜱꜱᴜᴇ \nᴩʟᴇᴀꜱᴇ ʙᴜy ᴩʀᴇᴍɪᴜᴍ ᴏʀ ʀᴇꜱᴛᴀʀᴛ ʙᴏᴛ \n\nᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ - /restart**",
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("ᴩʀᴇᴍɪᴜᴍ ᴩʟᴀɴꜱ",callback_data = "upgrade")],
                                                                      [InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url='https://t.me/Cinema_Rockets'),
