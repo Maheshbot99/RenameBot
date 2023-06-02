@@ -16,7 +16,7 @@ async def upgrade(bot,update):
 
 **🇳  🇴 🇹 🇪   :- ᴀꜰᴛᴇʀ ᴩᴀyᴍᴇɴᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴ ꜱʜᴏᴛ'ꜱ ᴏꜰ ᴩᴀyᴍᴇɴᴛ ᴛᴏ ᴍᴇ - @MaHi_458**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')],[InlineKeyboardButton('Cʟᴏsᴇ', callback_data='cancel')  ]])
+        			InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],[InlineKeyboardButton('°• ʙᴀᴄᴋ •°', callback_data='upgrade')  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -34,5 +34,5 @@ async def upgradecm(bot,message):
 
 **🇳  🇴 🇹 🇪   :- ᴀꜰᴛᴇʀ ᴩᴀyᴍᴇɴᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴ ꜱʜᴏᴛ'ꜱ ᴏꜰ ᴩᴀyᴍᴇɴᴛ ᴛᴏ ᴍᴇ - @MaHi_458**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')],[InlineKeyboardButton('Cʟᴏsᴇ', callback_data='cancel')  ]])
+        			InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/MaHi_458')],[InlineKeyboardButton('°• ʙᴀᴄᴋ •°', callback_data='upgrade')  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
