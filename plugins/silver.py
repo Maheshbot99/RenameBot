@@ -14,7 +14,7 @@ async def upgrade(bot,update):
 
 **💰 ᴘʀɪᴄᴇ 59₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/BUY-05-15")], 
+        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
@@ -31,6 +31,6 @@ async def upgradecm(bot,message):
 
 **💰 ᴘʀɪᴄᴇ 59₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",url = "https://graph.org/BUY-05-15")], 
+        			InlineKeyboardButton("💳  ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "upgrade")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
