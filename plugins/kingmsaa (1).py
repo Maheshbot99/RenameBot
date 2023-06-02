@@ -17,7 +17,7 @@ async def upgrade(bot,update):
 
 <b>☢ ɴᴏᴛᴇ : ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='earning')],[InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')  ]])
+        			InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')],[InlineKeyboardButton('Cʟᴏsᴇ', callback_data='cancel')  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -36,5 +36,5 @@ async def upgradecm(bot,message):
 
 <b>☢ ɴᴏᴛᴇ : ʏᴏᴜ sʜᴏᴜʟᴅ ɴᴏᴛ ʙᴇ ᴀɴ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ. sᴇɴᴅ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ ᴀɴᴏɴʏᴍᴜs ᴀᴅᴍɪɴ.</b>"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='earning')],[InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')  ]])
+        			InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')],[InlineKeyboardButton('Cʟᴏsᴇ', callback_data='cancel')  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
