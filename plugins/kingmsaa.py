@@ -6,6 +6,10 @@ from pyrogram import Client , filters
 async def upgrade(bot,update):
 	text = """**ᴩᴀyᴍᴇɴᴛ ᴅɪᴛᴇʟꜱ **
 
+**Silver 🥈 :- 59₹**
+**Gold 🏆 :- 99₹**
+**Diamond 💎 :- 159₹**
+
 **⌾  ᴍy ɴᴀᴍᴇ ɪꜱ - ᴍᴀʜᴇꜱʜ ꜱ**
 
 **⌾  ᴩʜᴏɴᴇ ᴩᴀy - ᴜᴩɪ :-** ```maheshs458@ybl```
@@ -23,6 +27,10 @@ async def upgrade(bot,update):
 @Client.on_message(filters.private & filters.command(["kingmsaa"]))
 async def upgradecm(bot,message):
 	text = """**ᴩᴀyᴍᴇɴᴛ ᴅɪᴛᴇʟꜱ **
+
+**Silver 🥈 :- 59₹**
+**Gold 🏆 :- 99₹**
+**Diamond 💎 :- 159₹**
 
 **⌾  ᴍy ɴᴀᴍᴇ ɪꜱ - ᴍᴀʜᴇꜱʜ ꜱ**
 
