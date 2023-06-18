@@ -17,6 +17,6 @@ async def start(client,message):
 	total_size = data["total_size"]
 	
 
-	await message.reply_text(f"**⚡️ ᴀʟʟ ɪᴅꜱ** : /n/n**⚡️ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ** :- {total_user()}\n\n**⚡️ ᴛᴏᴛᴀʟ ʀᴇɴᴀᴍᴇᴅ ꜰɪʟᴇꜱ**:- {total_rename}\n**⚡ ᴛᴏᴛᴇʟ ʀᴇɴᴀᴍᴇᴅ ꜱɪᴢᴇ** :- {humanbytes(int(total_size))}",quote=True,
+	await message.reply_text(f"**⚡️ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ** :- {total_user()}\n\n**⚡️ ᴛᴏᴛᴀʟ ʀᴇɴᴀᴍᴇᴅ ꜰɪʟᴇꜱ**:- {total_rename}\n**⚡ ᴛᴏᴛᴇʟ ʀᴇɴᴀᴍᴇᴅ ꜱɪᴢᴇ** :- {humanbytes(int(total_size))}",quote=True,
                              reply_markup= InlineKeyboardMarkup([[InlineKeyboardButton("• ᴄʟᴏꜱᴇ ᴍᴇɴᴜ •", callback_data="cancel")]]) 
                              )
