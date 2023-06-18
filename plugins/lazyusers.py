@@ -15,8 +15,7 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	id = str(getid())
-	ids = id.split(',')
+	
 
 	await message.reply_text(f"**⚡️ ᴀʟʟ ɪᴅꜱ** : /n/n**⚡️ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ** :- {total_user()}\n\n**⚡️ ᴛᴏᴛᴀʟ ʀᴇɴᴀᴍᴇᴅ ꜰɪʟᴇꜱ**:- {total_rename}\n**⚡ ᴛᴏᴛᴇʟ ʀᴇɴᴀᴍᴇᴅ ꜱɪᴢᴇ** :- {humanbytes(int(total_size))}",quote=True,
                              reply_markup= InlineKeyboardMarkup([[InlineKeyboardButton("• ᴄʟᴏꜱᴇ ᴍᴇɴᴜ •", callback_data="cancel")]]) 
