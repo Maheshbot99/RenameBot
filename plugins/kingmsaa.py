@@ -20,7 +20,7 @@ async def upgrade(bot,update):
 
 **🇳  🇴 🇹 🇪   :- ᴀꜰᴛᴇʀ ᴩᴀyᴍᴇɴᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴ ꜱʜᴏᴛ'ꜱ ᴏꜰ ᴩᴀyᴍᴇɴᴛ ᴛᴏ ᴍᴇ - @CrazyXBoTsBot**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("📸 ꜱᴇɴᴅ ᴍᴇ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url='https://t.me/CrazyXBoTsBot')],[InlineKeyboardButton('°• ʙᴀᴄᴋ •°', callback_data='upgrade')  ]])
+        			InlineKeyboardButton("📸 ꜱᴇɴᴅ ᴍᴇ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url='https://t.me/CrazyXBoTsBot?start')],[InlineKeyboardButton('°• ʙᴀᴄᴋ •°', callback_data='upgrade')  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -42,5 +42,5 @@ async def upgradecm(bot,message):
 
 **🇳  🇴 🇹 🇪   :- ᴀꜰᴛᴇʀ ᴩᴀyᴍᴇɴᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴ ꜱʜᴏᴛ'ꜱ ᴏꜰ ᴩᴀyᴍᴇɴᴛ ᴛᴏ ᴍᴇ - @CrazyXBoTsBot**"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("📸 ꜱᴇɴᴅ ᴍᴇ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url='https://t.me/CrazyXBoTsBot')],[InlineKeyboardButton('°• ʙᴀᴄᴋ •°', callback_data='upgrade')  ]])
+        			InlineKeyboardButton("📸 ꜱᴇɴᴅ ᴍᴇ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url='https://t.me/CrazyXBoTsBot?start')],[InlineKeyboardButton('°• ʙᴀᴄᴋ •°', callback_data='upgrade')  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
