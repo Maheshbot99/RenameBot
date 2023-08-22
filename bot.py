@@ -49,10 +49,7 @@ async def start(self):
         print(f"{me.first_name} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ⚡️⚡️⚡️")
       
 
-    async def stop(self, *args):
-        await super().stop()      
-        print("Bot Stopped")
-
+    
 if STRING:
     apps = [Client2,bot]
     for app in apps:
