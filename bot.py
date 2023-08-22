@@ -28,10 +28,30 @@ bot = Client(
            plugins=dict(root='plugins'))
            
 
-app = web.AppRunner(await web_server())
+async def start(self):
+        await super().start()
+        me = await self.get_me()
+        self.mention = me.mention
+        self.username = me.username 
+        self.force_channel = FORCE_SUB
+        if FORCE_SUB:
+            try:
+                link = await self.export_chat_invite_link(FORCE_SUB)                  
+                self.invitelink = link
+            except Exception as e:
+                print(e)
+                print("Make Sure Bot admin in force sub channel")             
+                self.force_channel = None
+        app = web.AppRunner(await web_server())
         await app.setup()
-        bind_address = "0.0.0.0"
-        await web.TCPSite(app, bind_address, PORT).start()
+        bind_address = "0.0.0.0"       
+        await web.TCPSite(app, bind_address, PORT).start()     
+        print(f"{me.first_name} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ⚡️⚡️⚡️")
+      
+
+    async def stop(self, *args):
+        await super().stop()      
+        print("Bot Stopped")
 
 if STRING:
     apps = [Client2,bot]
