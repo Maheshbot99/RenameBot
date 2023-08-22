@@ -1,1 +1,1 @@
-web: python -m http.server $PORT==8080 & python3 bot.py
+web: python -m http.server $PORT & python3 bot.py
