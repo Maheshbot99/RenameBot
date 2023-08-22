@@ -33,10 +33,10 @@ async def start(self):
         me = await self.get_me()
         self.mention = me.mention
         self.username = me.username 
-        self.force_channel = FORCE_SUB
-        if FORCE_SUB:
+        self.force_channel = CHANNEL
+        if CHANNEL:
             try:
-                link = await self.export_chat_invite_link(FORCE_SUB)                  
+                link = await self.export_chat_invite_link(CHANNEL)                  
                 self.invitelink = link
             except Exception as e:
                 print(e)
