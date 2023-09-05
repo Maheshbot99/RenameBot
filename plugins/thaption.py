@@ -8,7 +8,10 @@ async def upgrade(bot,update):
 
 **⦿ /set_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**
 **⦿ /see_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**
-**⦿ /del_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴀᴍᴍᴏɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**"""
+**⦿ /del_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴀᴍᴍᴏɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**
+**⦿ EX :-** ```/set_caption 
+📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
+💾 Sɪᴢᴇ: {filesize}```"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "settings")  ]])
@@ -21,7 +24,10 @@ async def upgradecm(bot,message):
 
 **⦿ /set_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**
 **⦿ /see_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ꜱᴇᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**
-**⦿ /del_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴀᴍᴍᴏɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**"""
+**⦿ /del_caption - ᴜꜱᴇ ᴛʜɪꜱ ᴄᴀᴍᴍᴏɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ yᴏᴜʀ ᴄᴀᴩᴛɪᴏɴ**
+**⦿ EX :-** ```/set_caption 
+📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
+💾 Sɪᴢᴇ: {filesize}```"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("💳 ᴜᴩɢʀᴀᴅᴇ",callback_data = "upgrade")], 
         			[InlineKeyboardButton("• ʙᴀᴄᴋ •",callback_data = "settings")  ]])
