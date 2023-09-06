@@ -1,4 +1,3 @@
-import motor.motor_asyncio
 import pymongo
 import os
 from helper.date import add_date
@@ -8,19 +7,6 @@ mongo = pymongo.MongoClient(DB_URL)
 db = mongo[DB_NAME]
 dbcol = db["user"]
 
-class Database:
-
-    def __init__(self, uri, database_name):
-        self._client = motor.motor_asyncio.AsyncIOMotorClient(uri)
-        self.db = self._client[database_name]
-        self.col = self.db.user
-
-    def new_user(self, id):
-        return dict(
-            _id=int(id),                                   
-            file_id=None,
-            caption=None
-        )
 
 def total_user():
     user = dbcol.count_documents({})
