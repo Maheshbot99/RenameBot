@@ -9,7 +9,7 @@ from pyrogram.types import (
 import humanize
 from helper.progress import humanbytes
 
-from helper.database import insert, find_one, used_limit, usertype, uploadlimit, addpredata, total_rename, total_size, send_doc
+from helper.database import insert, find_one, used_limit, usertype, uploadlimit, addpredata, total_rename, total_size
 from uploadbot.database import url, file_name, chunk_size, client, ud_type, message_id, chat_id
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
