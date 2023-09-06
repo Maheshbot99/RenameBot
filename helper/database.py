@@ -17,10 +17,6 @@ def total_user():
 async def total_users_count(self):
         count = await self.col.count_documents({})
         return count
-
-    async def get_all_users(self):
-        all_users = self.col.find({})
-        return all_users
         
 # insert bot Data
 
