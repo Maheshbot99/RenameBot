@@ -91,7 +91,7 @@ async def start(client, message):
 async def send_doc(client,message):
     update_channel = CHANNEL
     user_id = message.from_user.id
-    if update_channel:
+    if update_channel :
         try:
             await client.get_chat_member(update_channel, user_id)
         except UserNotParticipant:
