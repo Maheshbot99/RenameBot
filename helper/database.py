@@ -132,18 +132,3 @@ def delete(id):
 def find_one(id):
     return dbcol.find_one({"_id": id})
     
-#(((((((
-    async def set_thumbnail(self, id, file_id):
-        await self.col.update_one({'_id': int(id)}, {'$set': {'file_id': file_id}})
-
-    async def viewthumb(self, id):
-        user = await self.col.find_one({'_id': int(id)})
-        return user.get('file_id', None)
-
-    async def set_caption(self, id, caption):
-        await self.col.update_one({'_id': int(id)}, {'$set': {'caption': caption}})
-
-    async def see_caption(self, id):
-        user = await self.col.find_one({'_id': int(id)})
-        return user.get('caption', None)
-db = Database(DB_URL, DB_NAME)
