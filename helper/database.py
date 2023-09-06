@@ -118,3 +118,4 @@ def delete(id):
 def find_one(id):
     return dbcol.find_one({"_id": id})
     
+db = Database(DB_URL, DB_NAME)
