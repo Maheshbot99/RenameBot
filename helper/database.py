@@ -14,10 +14,6 @@ def total_user():
     user = dbcol.count_documents({})
     return user
 
-async def total_users_count(self):
-        count = await self.col.count_documents({})
-        return count
-        
 # insert bot Data
 
 
