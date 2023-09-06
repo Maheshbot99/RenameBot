@@ -136,7 +136,7 @@ async def restart_bot(b, m):
     await m.reply_text("🔄__Rᴇꜱᴛᴀʀᴛɪɴɢ.....__")
     os.execl(sys.executable, sys.executable, *sys.argv)
 
-@Client.on_message(filters.command(["stats", "status"]) & filters.user(ADMIN))
+@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["stats"]))
 async def get_stats(bot, message):
     total_users = await db.total_users_count()
     uptime = time.strftime("%Hh%Mm%Ss", time.gmtime(time.time() - bot.uptime))    
