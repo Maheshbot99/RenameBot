@@ -129,3 +129,9 @@ async def dft(bot,update):
 	addpre(int(user_id))
 	await update.message.edit(" ᴅᴀɪʟy ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀꜱ ʙᴇᴇɴ ʀᴇꜱᴛ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy.\nᴛʜɪꜱ ᴀᴄᴄᴏᴜɴᴛ ʜᴀꜱ ᴅᴇꜰᴀᴜʟᴛ 10B ʀᴇɴᴀᴍɪɴɢ ᴄᴀᴩᴀᴄɪᴛy ")
 	await bot.send_message(user_id,"yᴏᴜʀ ᴅᴀɪʟy ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀꜱ ʙᴇᴇɴ ʀᴇꜱᴇᴛ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟy.\n\nᴄʜᴇᴄᴋ yᴏᴜʀ ᴩʟᴀɴ ʜᴇʀᴇ - /myplan")
+
+#Restart to cancell all process 
+@Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["restart"]))
+async def restart_bot(b, m):
+    await m.reply_text("🔄__Rᴇꜱᴛᴀʀᴛɪɴɢ.....__")
+    os.execl(sys.executable, sys.executable, *sys.argv)
