@@ -1,3 +1,4 @@
+import motor.motor_asyncio
 import pymongo
 import os
 from helper.date import add_date
@@ -7,8 +8,19 @@ mongo = pymongo.MongoClient(DB_URL)
 db = mongo[DB_NAME]
 dbcol = db["user"]
 
-# Total User
+class Database:
 
+    def __init__(self, uri, database_name):
+        self._client = motor.motor_asyncio.AsyncIOMotorClient(uri)
+        self.db = self._client[database_name]
+        self.col = self.db.user
+
+    def new_user(self, id):
+        return dict(
+            _id=int(id),                                   
+            file_id=None,
+            caption=None
+        )
 
 def total_user():
     user = dbcol.count_documents({})
@@ -119,3 +131,19 @@ def delete(id):
 
 def find_one(id):
     return dbcol.find_one({"_id": id})
+    
+#(((((((
+    async def set_thumbnail(self, id, file_id):
+        await self.col.update_one({'_id': int(id)}, {'$set': {'file_id': file_id}})
+
+    async def viewthumb(self, id):
+        user = await self.col.find_one({'_id': int(id)})
+        return user.get('file_id', None)
+
+    async def set_caption(self, id, caption):
+        await self.col.update_one({'_id': int(id)}, {'$set': {'caption': caption}})
+
+    async def see_caption(self, id):
+        user = await self.col.find_one({'_id': int(id)})
+        return user.get('caption', None)
+db = Database(DB_URL, DB_NAME)
