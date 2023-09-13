@@ -1,6 +1,9 @@
 import math
 import time
 
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+# the Strings used for this "thing"
+from translation import Translation
 
 async def progress_for_pyrogram(
     current,
@@ -9,7 +12,13 @@ async def progress_for_pyrogram(
     message,
     start
 ):
-
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("🚫Cancel", callback_data = "closeme")
+                ]
+            ]
+        )
     now = time.time()
     diff = now - start
     if round(diff % 10.00) == 0 or current == total:
