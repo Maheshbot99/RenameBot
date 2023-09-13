@@ -1,5 +1,7 @@
 import math
 import time
+import os
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001808372200"))
 
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup, Message, ForceReply)
 from pyrogram import Client , filters
