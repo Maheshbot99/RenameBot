@@ -1,12 +1,15 @@
 import math
 import time
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+# the Strings used for this "thing"
+from translation import Translation
+
 
 async def progress_for_pyrogram(current, total, ud_type, message, start):
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚫Cancel", callback_data = "cancel")
+                    InlineKeyboardButton("🚫Cancel", callback_data = "Cancel")
                 ]
             ]
         )
@@ -23,12 +26,12 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
         elapsed_time = TimeFormatter(milliseconds=elapsed_time)
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
-        progress = "[{0}{1}] \n**Progress**: {2}%\n".format(
-            ''.join(["●" for i in range(math.floor(percentage / 5))]),
-            ''.join(["○" for i in range(20 - math.floor(percentage / 5))]),
+        progress = "[{0}{1}] \n <b>📊Percentage:</b> {2}%\n".format(
+            ''.join(["■" for i in range(math.floor(percentage / 5))]),
+            ''.join(["□" for i in range(20 - math.floor(percentage / 5))]),
             round(percentage, 2))
 
-        tmp = progress + "{0} of {1}\n**Speed**: {2}/s\n**ETA**: {3}\n".format(
+        tmp = progress + "<b>✅Completed:</b>{0} \n<b>📁Total Size:</b> {1}\n<b>🚀Speed:</b> {2}/s\n<b>⌚️ETA:</b> {3}\n".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
@@ -37,14 +40,10 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
         )
         try:
             await message.edit(
-                text="{}\n {}".format(
-                    ud_type,
-                    tmp
-                )
+                text="{}\n {}".format(ud_type,tmp), reply_markup=reply_markup
             )
         except:
             pass
-
 
 def humanbytes(size):
     # https://stackoverflow.com/a/49361727/4723940
