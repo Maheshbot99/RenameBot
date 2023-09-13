@@ -11,6 +11,7 @@ async def upgrade(bot,update):
 **⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- ```True```
 **⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- ```6```
 **⌾ ᴠᴀʟɪᴅɪᴛʏ** :- ```30 Days```
+**ꜱᴩᴇᴇᴅ ᴅᴇᴩᴇɴᴅ ʏᴏᴜʀ ᴅᴄ ɪᴅ**
 
 **💰 ᴘʀɪᴄᴇ 99₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
@@ -28,6 +29,7 @@ async def upgradecm(bot,message):
 **⌾ 4ɢʙ sᴜᴘᴘᴏʀᴛ** :- ```True```
 **⌾ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss** :- ```6```
 **⌾ ᴠᴀʟɪᴅɪᴛʏ** :- ```30 Days```
+**ꜱᴩᴇᴇᴅ ᴅᴇᴩᴇɴᴅ ʏᴏᴜʀ ᴅᴄ ɪᴅ**
 
 **💰 ᴘʀɪᴄᴇ 99₹ ᴘᴇʀ ᴍᴏɴᴛʜ**"""
 	keybord = InlineKeyboardMarkup([[ 
