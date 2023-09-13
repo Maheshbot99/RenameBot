@@ -1,7 +1,8 @@
 import math
 import time
 
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup, Message, ForceReply)
+from pyrogram import Client , filters
 # the Strings used for this "thing"
 from translation import Translation
 
@@ -76,3 +77,22 @@ def TimeFormatter(milliseconds: int) -> str:
         ((str(seconds) + "s, ") if seconds else "") + \
         ((str(milliseconds) + "ms, ") if milliseconds else "")
     return tmp[:-2]
+
+def convert(seconds):
+    seconds = seconds % (24 * 3600)
+    hour = seconds // 3600
+    seconds %= 3600
+    minutes = seconds // 60
+    seconds %= 60      
+    return "%d:%02d:%02d" % (hour, minutes, seconds)
+
+async def send_log(b, u):
+    if Config.LOG_CHANNEL is not None:
+        curr = datetime.now(timezone("Asia/Kolkata"))
+        date = curr.strftime('%d %B, %Y')
+        time = curr.strftime('%I:%M:%S %p')
+        await b.send_message(
+            Config.LOG_CHANNEL,
+            f"**--Nᴇᴡ Uꜱᴇʀ Sᴛᴀʀᴛᴇᴅ Tʜᴇ Bᴏᴛ--**\n\nUꜱᴇʀ: {u.mention}\nIᴅ: `{u.id}`\nUɴ: @{u.username}\n\nDᴀᴛᴇ: {date}\nTɪᴍᴇ: {time}\n\nBy: {b.mention}"
+        )
+        
