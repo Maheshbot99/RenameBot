@@ -230,7 +230,7 @@ async def vid(bot, update):
             except:
                 return
     else:
-        await ms.edit(**ᴛʀʏɪɴɢ ᴛᴏ ᴜᴩʟᴏᴀᴅ.....**") #Upload 
+        await ms.edit("**ᴛʀʏɪɴɢ ᴛᴏ ᴜᴩʟᴏᴀᴅ.....**") #Upload 
         c_time = time.time()
         try:
             await bot.send_video(update.from_user.id, video=file_path, thumb=ph_path, duration=duration, caption=caption, progress=progress_for_pyrogram, progress_args=("**ᴛʀʏɪɴɢ ᴛᴏ ᴜᴩʟᴏᴀᴅɪɴɢ.....**",  ms, c_time))
