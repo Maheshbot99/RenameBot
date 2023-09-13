@@ -18,7 +18,7 @@ async def progress_for_pyrogram(
     reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✖️ ᴄᴀɴᴄᴇʟ", callback_data = "cancel")
+                    InlineKeyboardButton("❗️ᴄᴀɴᴄᴇʟ ᴛʜɪꜱ ꜰᴜɴᴄᴛɪᴏɴ❗️", callback_data = "cancel")
                 ]
             ]
         )
