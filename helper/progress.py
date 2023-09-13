@@ -2,14 +2,14 @@ import math
 import time
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-async def progress_for_pyrogram(
-    current,
-    total,
-    ud_type,
-    message,
-    start
-):
-
+async def progress_for_pyrogram(current, total, ud_type, message, start):
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("🚫Cancel", callback_data = "cancel")
+                ]
+            ]
+        )
     now = time.time()
     diff = now - start
     if round(diff % 10.00) == 0 or current == total:
