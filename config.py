@@ -6,7 +6,7 @@ API_ID = os.environ.get("API_ID", "22525529")
 
 API_HASH = os.environ.get("API_HASH", "840111f82bbd1d2d3de5055afccf6a92")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+TOKEN = os.environ.get("TOKEN", "") 
 
 CHANNEL = os.environ.get("CHANNEL", "")
 
