@@ -10,7 +10,7 @@ bot = Client(
 
            "Renamerone",
 
-           bot_token=TOKEN,
+           bot_token=BOT_TOKEN,
 
            api_id=API_ID,
 
