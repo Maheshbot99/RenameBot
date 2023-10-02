@@ -1,31 +1,23 @@
 import asyncio
 from pyrogram import Client, compose,idle
 import os
-
+from aiohttp import web
+from route import web_server
+from config import *
 from plugins.cb_data import app as Client2
-
-TOKEN = os.environ.get("TOKEN", "")
-
-API_ID = int(os.environ.get("API_ID", ""))
-
-API_HASH = os.environ.get("API_HASH", "")
-
-STRING = os.environ.get("STRING", "")
-
-
 
 bot = Client(
 
-           "Renamer",
+           "Renamerone",
 
-           bot_token=TOKEN,
+           bot_token=TOKEN_ONE,
 
            api_id=API_ID,
 
            api_hash=API_HASH,
 
            plugins=dict(root='plugins'))
-           
+
 
 if STRING:
     apps = [Client2,bot]
@@ -34,6 +26,6 @@ if STRING:
     idle()
     for app in apps:
         app.stop()
-    
+
 else:
     bot.run()
