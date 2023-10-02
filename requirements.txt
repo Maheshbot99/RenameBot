@@ -11,5 +11,3 @@ telethon
 aiohttp
 mongo
 translation
-ffmpeg-python
-ffmpeg
