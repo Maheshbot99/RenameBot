@@ -6,9 +6,18 @@ from route import web_server
 from config import *
 from plugins.cb_data import app as Client2
 
+TOKEN = os.environ.get("TOKEN", "")
+
+API_ID = int(os.environ.get("API_ID", ""))
+
+API_HASH = os.environ.get("API_HASH", "")
+
+STRING = os.environ.get("STRING", "")
+
+
 bot = Client(
 
-           "Renamerone",
+           "Rename",
 
            bot_token=TOKEN,
 
@@ -17,7 +26,7 @@ bot = Client(
            api_hash=API_HASH,
 
            plugins=dict(root='plugins'))
-
+           
 
 if STRING:
     apps = [Client2,bot]
@@ -26,6 +35,6 @@ if STRING:
     idle()
     for app in apps:
         app.stop()
-
+    
 else:
     bot.run()
