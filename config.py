@@ -6,9 +6,9 @@ API_ID = os.environ.get("API_ID", "22525529")
 
 API_HASH = os.environ.get("API_HASH", "840111f82bbd1d2d3de5055afccf6a92")
 
-TOKEN = os.environ.get("TOKEN", "") 
+TOKEN = os.environ.get("TOKEN", "5355979778:AAE-E9XXHb5Lefzlgdh6nDUbFDMIdEUyCVU") 
 
-CHANNEL = os.environ.get("CHANNEL", "")
+CHANNEL = os.environ.get("CHANNEL", "CrazyXBots")
 
 STRING = os.environ.get("STRING", "")
 
