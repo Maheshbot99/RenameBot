@@ -1,7 +1,7 @@
 Pillow
 humanize
 hachoir
-pyrogram==2.0.80
+pyrogram==2.0.93
 TgCrypto
 dnspython
 Flask==2.2.2
