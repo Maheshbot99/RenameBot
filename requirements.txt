@@ -1,7 +1,6 @@
 Pillow
 humanize
 hachoir
-pyrofork==2.2.10
 pyrogram
 TgCrypto
 dnspython
@@ -11,3 +10,4 @@ telethon
 aiohttp
 mongo
 translation
+pymongo==4.5.0
