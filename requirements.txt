@@ -11,3 +11,5 @@ aiohttp
 mongo
 translation
 pymongo==4.5.0
+ffmpeg-python
+ffmpeg
